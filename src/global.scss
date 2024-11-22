@@ -1,0 +1,49 @@
+:root {
+  --primary: #f08804;
+  --secondary: #232f3e;
+  --dark: #0f1111;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/AmazonEmber_Rg.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/Amazon-Ember-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_Bd.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_He.ttf);
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AmazonEmber", sans-serif;
+}
+
+.heading {
+  max-height: 54.6px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
