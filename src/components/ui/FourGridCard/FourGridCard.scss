@@ -1,0 +1,22 @@
+.four-grid-card {
+  background-color: var(--light) red;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 15px 0;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.card-heading-container {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.images-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}

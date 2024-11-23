@@ -1,0 +1,43 @@
+nav {
+  width: 100%;
+  z-index: 198;
+  font-size: 16px;
+  line-height: 1em;
+  zoom: 1;
+  min-width: 1000px;
+}
+
+.nav-top {
+  background-color: var(--dark);
+  height: 60px;
+  width: 100%;
+  font-size: 14px;
+  z-index: 5;
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  float: none;
+  text-decoration: none;
+  padding: 1px 8px 0 6 px;
+  margin: 1px;
+}
+
+.logo {
+  width: 98px;
+  height: 34px;
+  background: url("/logo-sprite.png");
+  background-position: -9px -125px;
+  background-size: 350px;
+}
+
+.nav-logo {
+  margin-left: 15px;
+}
+
+.nav-bottom {
+  height: 39px;
+  width: 100%;
+  background-color: var(--dark-1);
+}

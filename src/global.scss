@@ -1,7 +1,12 @@
 :root {
   --primary: #f08804;
-  --secondary: #232f3e;
-  --dark: #0f1111;
+  --primary-1: #febd69;
+  --primary-1-hover: #f3a847;
+  --text-dark: #0f1111;
+  --dark: #131921;
+  --dark-1: #232f3e;
+  --light: #ffffff;
+  --background: #e3e6e6;
 }
 
 @font-face {
@@ -33,6 +38,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "AmazonEmber", sans-serif;
+}
+
+body {
+  color: var(--text-dark);
+  background: #e3e6e6;
 }
 
 .heading {
