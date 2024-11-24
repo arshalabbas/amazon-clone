@@ -1,0 +1,44 @@
+.location-card {
+  display: flex;
+  gap: 5px;
+  align-items: stretch;
+  padding: 0px 9px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ccc;
+  }
+
+  h4 {
+    padding-bottom: 1px;
+    color: var(--light);
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+  }
+
+  .icon-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex: 1;
+    align-items: end;
+    background-color: red;
+  }
+}
+
+.location-pin-icon {
+  background-image: var(--sprite);
+  background-position: -71px -378px;
+  width: 15px;
+  height: 18px;
+  // margin-top: 8px;
+  background-size: 350px;
+  background-repeat: repeat-x;
+  margin-top: 12px;
+}

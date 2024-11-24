@@ -1,20 +1,23 @@
+import Location from "./Location";
 import "./Navbar.scss";
+import Searchbar from "./Searchbar";
 
 const Navbar = () => {
   return (
     <nav>
+      {/* Top Belt */}
       <div className="nav-top">
-        <div className="nav-left">
-          <div className="nav-logo">
-            <a href="#" className="logo-container">
-              <div className="logo"></div>
-              <span className="logo-locale">.in</span>
-            </a>
-          </div>
+        {/* Branding */}
+        <div className="logo-container">
+          <div className="logo" />
+          .in
         </div>
-        <div className="nav-fill"></div>
-        <div className="nav-right"></div>
+
+        {/* Delivery Button */}
+        <Location />
+        <Searchbar />
       </div>
+      {/* Bottom Belt */}
       <div className="nav-bottom"></div>
     </nav>
   );
