@@ -1,0 +1,58 @@
+:root {
+  // Colors
+  --green-100: #04734b;
+  --green-200: #04734b;
+  --purple: #a9176f;
+  --purple-hover: #7f1153;
+  --orange: #ff6200;
+  --text-dark: #0f1111;
+  --text-light: #ffffff;
+  --text-light-muted: #cccccc;
+  --text-link: #007185;
+  --text-link-hover: #c7511f;
+
+  // FIles
+  --sprite: url("./assets/logo-sprite.png");
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/AmazonEmber_Th.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/AmazonEmber_Rg.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/Amazon-Ember-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_Bd.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_He.ttf);
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AmazonEmber", sans-serif;
+}
+
+body {
+  color: var(--text-dark);
+  background: #e3e6e6;
+}
