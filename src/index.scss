@@ -12,7 +12,8 @@
   --text-link-hover: #c7511f;
 
   // FIles
-  --sprite: url("./assets/logo-sprite.png");
+  --sprite: url("/sprites.png");
+  --flags-sprite: url("/flags-sprite.png");
 }
 
 @font-face {

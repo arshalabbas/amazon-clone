@@ -1,0 +1,139 @@
+.nav-search {
+  margin: 0 18px;
+  padding: 10px 4px 10px 3px;
+  height: 60px;
+  display: flex;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  border-radius: 4px;
+  width: auto;
+
+  form {
+    display: flex;
+    flex: 1 1 auto;
+    height: 40px;
+    border-radius: 4px;
+  }
+}
+
+.category-select {
+  display: flex;
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-right: 1px solid #cdcdcd;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 4px 0 0 4px;
+}
+
+.category-btn {
+  position: relative;
+  top: 3px;
+  float: left;
+  overflow: hidden;
+  cursor: default;
+
+  span {
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #555;
+    font-size: 12px;
+    line-height: 33px;
+    margin: 0 21px 0 5px;
+    min-width: 19px;
+  }
+
+  i {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    border: transparent 4px solid;
+    border-top: 4px solid #666;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    font-style: italic;
+    background-image: var(--sprite);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
+  }
+}
+
+.search-fill {
+  display: flex;
+  flex: 1 1 0px;
+  height: auto;
+  width: auto;
+  zoom: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.nav-search-field {
+  display: flex;
+  flex: 1 1 0px;
+  border: none;
+  border-top: 1px solid transparent;
+  background: #ffffff;
+  height: 40px;
+}
+
+.input-container {
+  height: 100%;
+  width: 100%;
+
+  input {
+    display: flex;
+    width: 100%;
+    line-height: 15px;
+    padding: 7px 10px 10px 0;
+    height: 38px;
+    font-size: 15px;
+    background: 0 0;
+    color: #111;
+    outline: none;
+    text-indent: 8px;
+    direction: ltr;
+    border-radius: 4px;
+    vertical-align: middle;
+    border: none;
+
+    &::placeholder {
+      font-weight: 400;
+    }
+  }
+}
+
+.search-right {
+  min-width: auto;
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.search-btn {
+  display: flex;
+  background-color: var(--purple);
+  border: none;
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+
+  &:hover {
+    background-color: var(--purple-hover);
+  }
+}
+
+.search-icon {
+  background-position: -82px -158px;
+  width: 44px;
+  height: 42px;
+  background-image: var(--sprite);
+  background-size: 350px;
+  background-repeat: repeat-x;
+}
