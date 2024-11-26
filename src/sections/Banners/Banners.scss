@@ -1,0 +1,59 @@
+.banners-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+
+  .inner-container {
+    max-height: 230px;
+    z-index: 0;
+    height: 300px;
+    position: relative;
+
+    div {
+      overflow: visible;
+      position: relative;
+    }
+  }
+}
+
+.arrow-container {
+  visibility: visible;
+  z-index: 10;
+  max-height: 250px;
+  width: 84px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  zoom: 1;
+
+  a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  i {
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-position: 0 0;
+    width: 34px;
+    height: 52px;
+    outline: 0;
+    background-image: url("/arrows.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.banner-img {
+  width: 100%;
+}
