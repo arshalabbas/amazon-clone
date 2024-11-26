@@ -6,6 +6,7 @@ import Language from "./Language";
 import Location from "./Location";
 import NavSearch from "./NavSearch";
 import Orders from "./Orders";
+import BottomMenu from "./BottomMenu";
 
 const NavBar = () => {
   return (
@@ -39,6 +40,20 @@ const NavBar = () => {
             <Orders />
             <Cart />
           </div>
+        </div>
+      </div>
+
+      {/* Nav bottom belt */}
+      <div className="nav-bottom-belt">
+        {/* Bottom Left */}
+        <div className="nav-bottom-left">
+          <a href="#" className="menu">
+            <i></i>
+            <span>All</span>
+          </a>
+        </div>
+        <div className="nav-bottom-fill">
+          <BottomMenu />
         </div>
       </div>
     </nav>

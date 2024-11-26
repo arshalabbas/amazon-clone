@@ -106,3 +106,63 @@ nav {
   font-size: 0;
   line-height: 0;
 }
+
+// Nav bottom belt
+.nav-bottom-belt {
+  // TODO: media queries
+  padding-left: 15px;
+  min-height: 39px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--green-200);
+  width: 100%;
+  z-index: 4;
+}
+
+.nav-bottom-left {
+  max-height: 39px;
+  display: flex;
+  width: auto;
+
+  .menu {
+    // TODO: media queries
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border: none;
+    text-decoration: none;
+    padding: 8px 9px;
+    font-size: 25px;
+    color: var(--text-white);
+    border-radius: 3px;
+    cursor: pointer;
+
+    i {
+      width: 17px;
+      height: 14px;
+      background-position: -172px -255px;
+      background-image: var(--sprite);
+      background-size: 350px;
+      background-repeat: repeat-x;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 14px;
+      padding-left: 5px;
+      white-space: nowrap;
+      color: var(--text-light);
+    }
+  }
+}
+
+.nav-bottom-fill {
+  max-height: 39px;
+  display: flex;
+  flex: 1 1 auto;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}

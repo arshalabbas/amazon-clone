@@ -1,0 +1,32 @@
+.nav-links-container {
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  min-width: 0;
+  z-index: 20;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  // margin: 21px 0 0;
+  max-height: 39px;
+  overflow: hidden;
+  // margin-top: 0;
+  line-height: 12px;
+
+  a {
+    padding: 8px 12px;
+    margin: 5px 0 6px 0;
+    height: 12px;
+    box-sizing: content-box;
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    cursor: ponter;
+  }
+}
