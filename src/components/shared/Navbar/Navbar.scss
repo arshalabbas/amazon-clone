@@ -79,8 +79,22 @@ nav {
 
 // Nav Right - End
 
-.nav-down-arrow {
-  margin: 6px 0 0 2px;
+// .nav-down-arrow {
+//   margin: 6px 0 0 2px;
+//   display: flex;
+//   align-items: center;
+//   border-top-color: #a7acb2;
+//   border: 4px solid transparent;
+//   border-top: 4px solid #a7acb2;
+//   border-bottom-width: 0;
+//   width: 0;
+//   height: 0;
+//   font-size: 0;
+//   line-height: 0;
+// }
+
+@mixin nav-down-arrow($margin: 6px 0 0 2px) {
+  margin: $margin;
   display: flex;
   align-items: center;
   border-top-color: #a7acb2;

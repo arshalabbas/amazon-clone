@@ -8,7 +8,7 @@ const Language = () => {
         <div className="line-2">
           <div className="flag" />
           <div>EN</div>
-          <div className="nav-down-arrow"></div>
+          <div className="nav-down-arrow down-arrow"></div>
         </div>
       </span>
     </a>

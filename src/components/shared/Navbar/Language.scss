@@ -1,9 +1,10 @@
+@use "./Navbar.scss" as c;
+
 .tool-link {
   margin-left: 1px;
-  margin: 0 1px 0 1px;
   padding-left: 9px;
   padding-bottom: 5px;
-  padding: 0 9px 10px;
+  padding: 0 9px 5px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -38,6 +39,10 @@
       font-weight: 700;
       clear: both;
       white-space: nowrap;
+
+      .down-arrow {
+        @include c.nav-down-arrow();
+      }
     }
   }
 }
