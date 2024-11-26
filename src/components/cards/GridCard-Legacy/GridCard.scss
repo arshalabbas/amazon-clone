@@ -1,0 +1,97 @@
+.grid-card-container {
+  max-width: 400px;
+  display: block;
+  height: 420px;
+  min-height: 420px;
+  flex: 1 0 290px;
+  padding: 0 10px;
+  min-width: 290px;
+  order: 1;
+  overflow: hidden;
+
+  .inner-container {
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 15px 0;
+    overflow: hidden;
+
+    .header {
+      padding: 0 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        max-height: 54.6px;
+        font-size: 21px;
+        line-height: 27.3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 700;
+      }
+    }
+
+    .body {
+      flex-grow: 1;
+      height: 275px;
+      margin-bottom: 44px;
+      padding: 0 20px;
+      overflow: hidden;
+    }
+  }
+}
+
+.image-row {
+  height: 50%;
+  overflow: hidden;
+
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.card-item {
+  float: left;
+  height: 100%;
+  padding: 0 0 36px;
+  position: relative;
+  width: 47.5%;
+  overflow: hidden;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    max-width: none;
+    margin: auto;
+    position: absolute;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    vertical-align: top;
+  }
+}
+
+.card-label {
+  height: 36px;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+
+  span {
+    max-height: 36px;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+  }
+}

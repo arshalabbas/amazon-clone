@@ -1,0 +1,124 @@
+.grid-card-container {
+  max-width: 400px;
+  display: block;
+  height: 420px;
+  min-height: 420px;
+  flex: 1 0 290px;
+  padding: 0 10px;
+  min-width: 290px;
+  order: 1;
+
+  .inner-container {
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 15px 0;
+
+    h2 {
+      max-height: 54.6px;
+      font-size: 21px;
+      line-height: 27.3px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 700;
+    }
+  }
+}
+
+.card-header {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  flex-grow: 1;
+  height: 275px;
+  margin-bottom: 44px;
+  padding: 0 20px;
+  display: block;
+}
+
+.card-row {
+  height: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.card-row-item {
+  float: left;
+  display: inline-block;
+  height: 100%;
+  padding: 0 0 36px;
+  position: relative;
+  width: 47.5%;
+  margin-bottom: 0;
+}
+
+.card-item-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0;
+
+  img {
+    max-width: none;
+    margin: auto;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+  }
+}
+
+.card-item-label {
+  height: 36px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+
+  span {
+    max-height: 36px;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.card-footer {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: var(--text-link);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--text-link-hover);
+    }
+
+    span {
+      line-height: 1.3em;
+      max-height: 1.3em;
+      display: block;
+      word-break: normal;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}

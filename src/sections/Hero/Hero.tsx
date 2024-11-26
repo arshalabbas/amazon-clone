@@ -1,3 +1,4 @@
+import GridCard from "../../components/cards/GridCard/GridCard";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -14,6 +15,13 @@ const Hero = () => {
           </span>
           <a href="#"> Click here to go to amazon.in</a>
         </div>
+      </div>
+
+      <div className="grid-layout">
+        <GridCard />
+        <GridCard />
+        <GridCard />
+        <GridCard />
       </div>
     </div>
   );

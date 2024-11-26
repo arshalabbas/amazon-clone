@@ -30,3 +30,15 @@
     }
   }
 }
+
+.grid-layout {
+  display: flex;
+  max-width: 1480px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+  flex-flow: row wrap;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
