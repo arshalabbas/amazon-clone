@@ -13,7 +13,7 @@ const GridCardItem = ({ image, label }: { image: string; label: string }) => (
 
 const GridCard = () => {
   return (
-    <div className="grid-card-container">
+    <div className="card-container">
       <div className="inner-container">
         <div className="card-header">
           <h2>Score Black Friday Week deals</h2>

@@ -1,4 +1,5 @@
 import GridCard from "../../components/cards/GridCard/GridCard";
+import ProductCard from "../../components/cards/ProductCard/ProductCard";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
 
       <div className="grid-layout">
         <GridCard />
-        <GridCard />
+        <ProductCard />
         <GridCard />
         <GridCard />
       </div>
