@@ -25,7 +25,9 @@ const Hero = () => {
             ) : (
               <ProductCard {...item} />
             )}
-            {(index + 1) % 4 === 0 && <div className="v-spacer-20" />}
+            {(index + 1) % 4 === 0 && index + 1 !== heroProducts.length && (
+              <div className="v-spacer-20" />
+            )}
           </Fragment>
         ))}
       </div>

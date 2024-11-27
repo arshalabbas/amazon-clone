@@ -5,6 +5,7 @@ import Banners from "./sections/Banners/Banners";
 import Hero from "./sections/Hero/Hero";
 import ScrollLayout from "./sections/ScrollLayout/ScrollLayout";
 import circleImages from "./constants/circleImages";
+import { productSet1, productSet2, productSet3 } from "./constants/productSets";
 
 const App = () => {
   return (
@@ -20,6 +21,21 @@ const App = () => {
               heading="Here come Holiday Specials"
               routeText="Explore now"
               images={circleImages}
+            />
+            <div className="v-spacer-20" />
+            <ScrollLayout
+              heading="New international customers purchased"
+              images={productSet1}
+            />
+            <div className="v-spacer-20" />
+            <ScrollLayout
+              heading="Most wished for in Movies & TV"
+              images={productSet2}
+            />
+            <div className="v-spacer-20" />
+            <ScrollLayout
+              heading="International top sellers"
+              images={productSet3}
             />
           </div>
         </div>
