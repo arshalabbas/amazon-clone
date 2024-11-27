@@ -6,6 +6,7 @@ import Hero from "./sections/Hero/Hero";
 import ScrollLayout from "./sections/ScrollLayout/ScrollLayout";
 import circleImages from "./constants/circleImages";
 import { productSet1, productSet2, productSet3 } from "./constants/productSets";
+import WrappedCardsLayout from "./components/layouts/WrappedCardsLayout/WrappedCardsLayout";
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
               routeText="Explore now"
               images={circleImages}
             />
+            <div className="v-spacer-20" />
+            <WrappedCardsLayout />
             <div className="v-spacer-20" />
             <ScrollLayout
               heading="New international customers purchased"

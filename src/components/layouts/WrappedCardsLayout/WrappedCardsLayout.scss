@@ -1,0 +1,67 @@
+.wrapped-cards-layout-container {
+  flex: 1 0 100%;
+  height: auto;
+  min-height: 0;
+  display: block;
+  padding: 0 10px;
+  min-width: 290px;
+
+  .inner-container {
+    background-color: var(--orange);
+    padding: 20px;
+
+    .heading-container {
+      display: flex;
+      gap: 12px;
+      color: var(--text-light);
+
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 12px;
+      }
+
+      a {
+        margin-top: 6px;
+        text-decoration: underline;
+        text-align: start;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+        min-width: 60px;
+        line-height: 1.3em;
+        max-height: 1.3em;
+        color: var(--text-light);
+      }
+    }
+  }
+}
+
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+
+  ol {
+    height: 305px;
+    width: 5028px;
+    list-style-type: none;
+    white-space: nowrap;
+    letter-spacing: -4px;
+
+    li {
+      width: 240px;
+      height: 100%;
+      visibility: visible;
+      vertical-align: top;
+      text-align: left;
+      overflow: hidden;
+      min-height: 100%;
+      display: inline-block;
+      white-space: normal;
+      letter-spacing: normal;
+      word-wrap: break-word;
+    }
+  }
+}

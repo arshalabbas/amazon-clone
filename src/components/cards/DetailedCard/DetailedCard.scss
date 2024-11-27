@@ -1,0 +1,88 @@
+.detailed-card-container {
+  background: #ffffff;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: start;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.figure-container {
+  position: relative;
+  border-radius: 8px 8px 0 0;
+
+  img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    padding: 8px;
+    vertical-align: top;
+    max-width: 100%;
+    height: 220px;
+    aspect-ratio: auto 240 / 220;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+}
+
+.detailed-body {
+  padding: 8px 4px 0 4px;
+  position: relative;
+}
+
+.badge-container {
+  min-height: 24px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.badge-off {
+  background-color: #cc0c39;
+  color: var(--text-light);
+  display: inline-block;
+  min-height: fit-content;
+  line-height: 12px;
+  border-radius: 2px;
+  padding: 4px 6px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.badge-text {
+  background-color: #ffffff;
+  color: #cc0c39;
+  display: inline-block;
+  line-height: 12px;
+  font-weight: 700;
+  flex: 1;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.price-container {
+  padding-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.price {
+  margin-right: 4px;
+  font-size: 18px;
+  line-height: 24px;
+
+  span {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: -1;
+    opacity: 0;
+  }
+}
