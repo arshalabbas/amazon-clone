@@ -27,6 +27,14 @@ nav {
   display: flex;
   height: 100%;
 
+  // @media (min-width: $xl) {
+  //   margin-left: 15px;
+  // }
+
+  // @media (min-width: $lg) {
+  //   margin-left: 11px;
+  // }
+
   a {
     display: flex;
     text-decoration: none;

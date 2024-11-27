@@ -1,9 +1,10 @@
+import { CardElement } from "../../../types";
 import "./GridCard.scss";
 
 const GridCardItem = ({ image, label }: { image: string; label: string }) => (
   <div className="card-row-item">
     <div className="card-item-image">
-      <img src={image} alt={label + "image"} />
+      <img src={image} alt={label + "-image"} />
     </div>
     <div className="card-item-label">
       <span>{label}</span>
@@ -11,38 +12,28 @@ const GridCardItem = ({ image, label }: { image: string; label: string }) => (
   </div>
 );
 
-const GridCard = () => {
+const GridCard = ({ heading, body, footer }: CardElement) => {
+  if (!Array.isArray(body)) return;
+
   return (
     <div className="card-container">
       <div className="inner-container">
         <div className="card-header">
-          <h2>Score Black Friday Week deals</h2>
+          <h2>{heading}</h2>
         </div>
         <div className="card-body">
           <div className="card-row">
-            <GridCardItem
-              image="/products/grid-images/grid-1-1.jpg"
-              label="Amazon Basics & more"
-            />
-            <GridCardItem
-              image="/products/grid-images/grid-1-2.jpg"
-              label="Amazon Basics & more"
-            />
+            <GridCardItem image={body[0].image} label={body[0].title} />
+            <GridCardItem image={body[1].image} label={body[1].title} />
           </div>
           <div className="card-row">
-            <GridCardItem
-              image="/products/grid-images/grid-1-3.jpg"
-              label="Amazon Basics & more"
-            />
-            <GridCardItem
-              image="/products/grid-images/grid-1-4.jpg"
-              label="Amazon Basics & more"
-            />
+            <GridCardItem image={body[2].image} label={body[2].title} />
+            <GridCardItem image={body[3].image} label={body[3].title} />
           </div>
         </div>
         <div className="card-footer">
           <a href="#">
-            <span>Shop all deals</span>
+            <span>{footer}</span>
           </a>
         </div>
       </div>
