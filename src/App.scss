@@ -4,3 +4,17 @@
   min-width: 1000px;
   overflow: hidden;
 }
+
+.rest-content {
+  max-width: 1480px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.main-content {
+  margin: 0;
+  overflow: hidden;
+  flex-flow: row wrap;
+  font-size: 13px;
+  line-height: 19px;
+}
