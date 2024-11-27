@@ -27,6 +27,11 @@
       cursor: pointer;
       text-align: center;
       font-size: 14px;
+
+      &:hover {
+        color: var(--text-link-hover);
+        text-decoration: underline;
+      }
     }
   }
 }
