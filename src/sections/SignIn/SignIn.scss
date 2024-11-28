@@ -1,29 +1,32 @@
-.sign-in-container {
+.signin-container {
+  display: block;
   min-width: 940px;
   position: relative;
+  background-color: #ffffff;
 
   .inner-container {
-    border: 1px solid #ddd;
+    // border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 0 20px;
-    background: #ffffff;
+    // padding: 0 20px;
   }
 }
 
 .signin-content {
-  margin-top: 19px;
-  margin-bottom: 17px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  // padding: 0 20px;
 }
 
-.signin-button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.signin-btn-container {
+  margin-top: 19px;
+  margin-bottom: 17px;
   line-height: 15px;
   padding: 0 20px;
-  color: #000000;
+  color: #000;
   font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
   h2 {
     font-weight: 700;
@@ -32,46 +35,111 @@
     padding-bottom: 4px;
   }
 
-  a {
-    display: block;
+  .signin-btn {
     max-width: 230px;
     text-decoration: none;
     margin: 5px 0;
     width: 230px;
-    background-position: -10px -170px;
+    display: block;
     background-image: url("/ui-sprite.png");
-    cursor: pointer;
-    line-height: 15px;
-    font-size: 13px;
+    background-position: -10px -170px;
+    color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #ffe093;
+  }
 
-    span {
-      cursor: pointer;
-      background-position: right -170px;
-      height: 28px;
-      display: block;
-      height: 28px;
-      position: relative;
-      color: #000;
-      font-size: 12px;
-      line-height: 28px;
-      text-align: center;
-      font-weight: 700;
+  div {
+    font-size: 11px;
+
+    a {
       text-decoration: none;
-      text-shadow: 0 1px #ffe093;
+      color: var(--text-link);
+
+      &:hover {
+        color: var(--text-link-hover);
+        text-decoration: underline;
+      }
     }
   }
 }
 
-.tool-tip {
-  font-size: 11px;
+// .sign-in-container {
+//   min-width: 940px;
+//   position: relative;
 
-  span {
-    color: var(--text-link);
-    cursor: pointer;
+//   .inner-container {
+//     border-radius: 5px;
+//     padding: 0 20px;
+//     background: #ffffff;
+//     border: 1px solid #ddd;
+//   }
+// }
 
-    &:hover {
-      color: var(--text-link-hover);
-      text-decoration: underline;
-    }
-  }
-}
+// .signin-content {
+//   margin-top: 19px;
+//   margin-bottom: 17px;
+// }
+
+// .signin-button-container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   line-height: 15px;
+//   padding: 0 20px;
+//   color: #000000;
+//   font-size: 13px;
+
+//   h2 {
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 32px;
+//     padding-bottom: 4px;
+//   }
+
+//   a {
+//     display: block;
+//     max-width: 230px;
+//     text-decoration: none;
+//     margin: 5px 0;
+//     width: 230px;
+//     background-position: -10px -170px;
+//     background-image: url("/ui-sprite.png");
+//     cursor: pointer;
+//     line-height: 15px;
+//     font-size: 13px;
+
+//     span {
+//       cursor: pointer;
+//       background-position: right -170px;
+//       height: 28px;
+//       display: block;
+//       height: 28px;
+//       position: relative;
+//       color: #000;
+//       font-size: 12px;
+//       line-height: 28px;
+//       text-align: center;
+//       font-weight: 700;
+//       text-decoration: none;
+//       text-shadow: 0 1px #ffe093;
+//     }
+//   }
+// }
+
+// .tool-tip {
+//   font-size: 11px;
+
+//   span {
+//     color: var(--text-link);
+//     cursor: pointer;
+
+//     &:hover {
+//       color: var(--text-link-hover);
+//       text-decoration: underline;
+//     }
+//   }
+// }

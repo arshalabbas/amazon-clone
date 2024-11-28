@@ -80,9 +80,9 @@ const App = () => {
             />
           </div>
         </div>
-        <div className="v-spacer-22" />
-        <SignIn />
       </section>
+      <div className="v-spacer-22 bg-white" />
+      <SignIn />
     </main>
   );
 };

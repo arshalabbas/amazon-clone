@@ -123,7 +123,7 @@ const heroProducts: CardElement[] = [
   },
   {
     type: "single",
-    heading: "Get yout game on",
+    heading: "Get your game on",
     body: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg",
     footer: "Shop gaming",
   },
