@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import FooterMid from "./FooterMid";
 import FooterTop from "./FooterTop";
 const Footer = () => {
   return (
@@ -7,6 +8,8 @@ const Footer = () => {
         Back to top
       </a>
       <FooterTop />
+      <div className="footer-line" />
+      <FooterMid />
     </footer>
   );
 };
