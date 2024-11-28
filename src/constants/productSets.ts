@@ -88,3 +88,20 @@ export const productSet3 = [
   "https://m.media-amazon.com/images/I/71cwPMSk6ZL._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/61W7UV4z+SL._AC_SY200_.jpg",
 ];
+
+export const productSet4 = [
+  "https://m.media-amazon.com/images/I/71cwPMSk6ZL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61qKu6T1D6L._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61I3uveR-5L._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61OyiBG3eWL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/617-RHaiUZL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/615ULh6YTGL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61N7ZDkyUwL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/51ZmkZrGVwL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61H3h3OoJQL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/612ZdnFyiUL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/61oY+5Wm0KL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/51hJp+JtHtL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/51EumtE0QFL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/71nbRcpOQmL._AC_SY200_.jpg",
+];

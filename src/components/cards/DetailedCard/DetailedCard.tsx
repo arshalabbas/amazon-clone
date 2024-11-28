@@ -23,7 +23,7 @@ const DetailedCard = ({
           <div className="price">
             {/* <span>$1, 099.99</span> */}
             <span className="prefix">$</span>
-            <span>${price}</span>
+            <span>{price}</span>
             <span className="prefix">{fraction}</span>
           </div>
           <div className="striked-price">

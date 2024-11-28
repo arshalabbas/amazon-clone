@@ -29,12 +29,6 @@ const heroProducts: CardElement[] = [
     footer: "Shop all deals",
   },
   {
-    type: "single",
-    heading: "Toys under $25",
-    body: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg",
-    footer: "Shop now",
-  },
-  {
     type: "grid",
     heading: "Refresh your space",
     body: [
@@ -60,6 +54,12 @@ const heroProducts: CardElement[] = [
       },
     ],
     footer: "See more",
+  },
+  {
+    type: "single",
+    heading: "Toys under $25",
+    body: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg",
+    footer: "Shop now",
   },
   {
     type: "single",

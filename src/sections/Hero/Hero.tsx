@@ -1,6 +1,4 @@
-import { Fragment } from "react";
-import GridCard from "../../components/cards/GridCard/GridCard";
-import ProductCard from "../../components/cards/ProductCard/ProductCard";
+import GridLayout from "../../components/layouts/GridLayout/GridLayout";
 import heroProducts from "../../constants/hero";
 import "./Hero.scss";
 
@@ -17,20 +15,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="grid-layout">
-        {heroProducts.map((item, index) => (
-          <Fragment key={index}>
-            {item.type === "grid" ? (
-              <GridCard {...item} />
-            ) : (
-              <ProductCard {...item} />
-            )}
-            {(index + 1) % 4 === 0 && index + 1 !== heroProducts.length && (
-              <div className="v-spacer-20" />
-            )}
-          </Fragment>
-        ))}
-      </div>
+      <GridLayout body={heroProducts} />
     </div>
   );
 };

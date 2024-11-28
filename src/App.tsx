@@ -5,9 +5,24 @@ import Banners from "./sections/Banners/Banners";
 import Hero from "./sections/Hero/Hero";
 import ScrollLayout from "./sections/ScrollLayout/ScrollLayout";
 import circleImages from "./constants/circleImages";
-import { productSet1, productSet2, productSet3 } from "./constants/productSets";
+import {
+  productSet1,
+  productSet2,
+  productSet3,
+  productSet4,
+} from "./constants/productSets";
 import WrappedCardsLayout from "./components/layouts/WrappedCardsLayout/WrappedCardsLayout";
-import { productCardSet1 } from "./constants/productCardsSet";
+import {
+  productCardSet1,
+  productCardSet2,
+  productCardSet3,
+} from "./constants/productCardsSet";
+import GridLayout from "./components/layouts/GridLayout/GridLayout";
+import {
+  gridProductsSet1,
+  gridProductsSet2,
+  gridProductsSet3,
+} from "./constants/gridProductsSet";
 
 const App = () => {
   return (
@@ -31,6 +46,12 @@ const App = () => {
               body={productCardSet1}
             />
             <div className="v-spacer-20" />
+            <WrappedCardsLayout
+              heading="Deals on kitchen"
+              anchorText="Shop all kitchen deals"
+              body={productCardSet2}
+            />
+            <GridLayout body={gridProductsSet1} />
             <ScrollLayout
               heading="New international customers purchased"
               images={productSet1}
@@ -40,15 +61,25 @@ const App = () => {
               heading="Most wished for in Movies & TV"
               images={productSet2}
             />
-            <div className="v-spacer-20" />
+            <GridLayout body={gridProductsSet2} />
             <ScrollLayout
               heading="International top sellers"
               images={productSet3}
             />
+            <div className="v-spacer-20" />
+            <WrappedCardsLayout
+              heading="Deals on fashion & more"
+              anchorText="Shop deals in fashion"
+              body={productCardSet3}
+            />
+            <GridLayout body={gridProductsSet3} />
+            <ScrollLayout
+              heading="Top Sellers in Books for you"
+              images={productSet4}
+            />
           </div>
         </div>
       </section>
-      <section style={{ height: "300vh" }}></section>
     </main>
   );
 };
