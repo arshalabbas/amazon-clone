@@ -110,3 +110,9 @@ body {
 .bg-white {
   background-color: #ffffff;
 }
+
+.col-spacer {
+  display: table-cell;
+  padding: 0 10px;
+  width: 10%;
+}
