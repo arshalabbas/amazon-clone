@@ -1,19 +1,28 @@
+import { WrappedCard } from "../../../types";
 import DetailedCard from "../../cards/DetailedCard/DetailedCard";
 import "./WrappedCardsLayout.scss";
 
-const WrappedCardsLayout = () => {
+interface Props {
+  heading: string;
+  anchorText: string;
+  body: WrappedCard[];
+}
+
+const WrappedCardsLayout = ({ heading, anchorText, body }: Props) => {
   return (
     <div className="wrapped-cards-layout-container">
       <div className="inner-container">
         <div className="heading-container">
-          <h3>Deals on PCs and gaming</h3>
-          <a href="#">Shop more deals in PCs & gaming</a>
+          <h3>{heading}</h3>
+          <a href="#">{anchorText}</a>
         </div>
         <div className="carousel-wrapper">
           <ol>
-            <li>
-              <DetailedCard />
-            </li>
+            {body.map((item, index) => (
+              <li key={index}>
+                <DetailedCard {...item} />
+              </li>
+            ))}
           </ol>
         </div>
       </div>

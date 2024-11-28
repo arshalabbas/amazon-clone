@@ -7,6 +7,7 @@ import ScrollLayout from "./sections/ScrollLayout/ScrollLayout";
 import circleImages from "./constants/circleImages";
 import { productSet1, productSet2, productSet3 } from "./constants/productSets";
 import WrappedCardsLayout from "./components/layouts/WrappedCardsLayout/WrappedCardsLayout";
+import { productCardSet1 } from "./constants/productCardsSet";
 
 const App = () => {
   return (
@@ -24,7 +25,11 @@ const App = () => {
               images={circleImages}
             />
             <div className="v-spacer-20" />
-            <WrappedCardsLayout />
+            <WrappedCardsLayout
+              heading="Deals on PCs and gaming"
+              anchorText="Shop more deals in PCs & gaming"
+              body={productCardSet1}
+            />
             <div className="v-spacer-20" />
             <ScrollLayout
               heading="New international customers purchased"

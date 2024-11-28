@@ -1,24 +1,37 @@
+import { WrappedCard } from "../../../types";
 import "./DetailedCard.scss";
 
-const DetailedCard = () => {
+const DetailedCard = ({
+  imgURL,
+  fraction,
+  oldPrice,
+  price,
+  title,
+  percentage,
+}: WrappedCard) => {
   return (
     <div className="detailed-card-container">
       <div className="figure-container">
-        <img
-          src="https://m.media-amazon.com/images/I/41kjMvKK9mL._SR480,440_.jpg"
-          alt="product-image"
-        />
+        <img src={imgURL} alt="product-image" />
       </div>
       <div className="detailed-body">
         <div className="badge-container">
-          <div className="badge-off">21% off</div>
+          <div className="badge-off">{percentage}</div>
           <div className="badge-text">Black Friday Deal</div>
         </div>
         <div className="price-container">
           <div className="price">
-            <span>$1, 099.99</span>
+            {/* <span>$1, 099.99</span> */}
+            <span className="prefix">$</span>
+            <span>${price}</span>
+            <span className="prefix">{fraction}</span>
+          </div>
+          <div className="striked-price">
+            <span>List:</span>
+            <span>{oldPrice}</span>
           </div>
         </div>
+        <div className="product-title">{title}</div>
       </div>
     </div>
   );
