@@ -23,6 +23,7 @@ import {
   gridProductsSet2,
   gridProductsSet3,
 } from "./constants/gridProductsSet";
+import SignIn from "./sections/SignIn/SignIn";
 
 const App = () => {
   return (
@@ -79,6 +80,8 @@ const App = () => {
             />
           </div>
         </div>
+        <div className="v-spacer-22" />
+        <SignIn />
       </section>
     </main>
   );
