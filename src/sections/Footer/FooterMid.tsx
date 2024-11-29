@@ -16,6 +16,16 @@ const FooterMid = () => {
             <span className="option-label">English</span>
             <span className="select-arrow-icon" />
           </a>
+          {/* Item 2 */}
+          <a href="#">
+            <span className="currency">$</span>
+            <span className="option-label">USD - U.S. Dollar</span>
+          </a>
+          {/* Item 3 */}
+          <a href="#">
+            <span className="us-flag" />
+            <span className="option-label">United States</span>
+          </a>
         </div>
       </div>
     </div>
