@@ -38,8 +38,8 @@ export const footerTopLinks: { heading: string; items: string[] }[] = [
       "Amazon and COVID-19",
       "Your Account",
       "Your Orders",
-      "Shipping Rates &amp; Policies",
-      "Returns &amp; Replacements",
+      "Shipping Rates & Policies",
+      "Returns & Replacements",
       "Manage Your Content and Devices",
       "Help",
     ],
@@ -48,7 +48,7 @@ export const footerTopLinks: { heading: string; items: string[] }[] = [
 
 export const footerBottomLinks: { title: string; subtle: string }[][] = [
   [
-    { title: "Amazon Music", subtle: "Stream millions\nof songs" },
+    { title: "Amazon Music", subtle: "Stream\nmillions\nof songs" },
     {
       title: "Amazon Ads",
       subtle: "React customers\nwherever they\nspend their time",
@@ -67,17 +67,17 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Sell on Amazon",
-      subtle: "Start a selling account",
+      subtle: "Start a selling\nAccount",
     },
     {
       title: "Veeqo",
-      subtle: "Shopping Software\nInventory Management",
+      subtle: "Shopping Software\nInventory\nManagement",
     },
   ],
   [
     {
       title: "Amazon Business",
-      subtle: "Everything For\nYour Business",
+      subtle: "Everything\nFor\nYour\nBusiness",
     },
     {
       title: "AmazonGlobal",
@@ -85,15 +85,15 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Home Services",
-      subtle: "Experienced Pros\nHapiness Guarantee",
+      subtle: "Experienced Pros\nHapiness\nGuarantee",
     },
     {
       title: "Amazon Web Services",
-      subtle: "Scalable Cloud\nComputing Services",
+      subtle: "Scalable Cloud\nComputing\nServices",
     },
     {
       title: "Audible",
-      subtle: "Listen to Books & Original\nAudio Performances",
+      subtle: "Listen to Books &\nOriginal\nAudio Performances",
     },
     {
       title: "Box Office Mojo",
@@ -101,63 +101,63 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Goodreads",
-      subtle: "Book reviewws & recommendations",
+      subtle: "Book revieww\n&\nrecommendations",
     },
   ],
   [
     {
-      title: "IMFb",
-      subtle: "Movies, TV & Celebrities",
+      title: "IMDb",
+      subtle: "Movies, TV\n& Celebrities",
     },
     {
       title: "IMDbPro",
-      subtle: "Get Info Entertainment Professionals Need",
+      subtle: "Get Info\nEntertainment\nProfessionals\nNeed",
     },
     {
       title: "Kindle Direct Publishing",
-      subtle: "Indie Digital & Print Publishing Made Easy",
+      subtle: "Indie Digital &\nPrint Publishing\nMade Easy",
     },
     {
       title: "Prime Video Direct",
-      subtle: "Video Distribution Made Easy",
+      subtle: "Video\nDistribution\nMade Easy",
     },
     {
       title: "Shopbop",
-      subtle: "Designer Fashion Brands",
+      subtle: "Designer\nFashion Brands",
     },
     {
       title: "Woot!",
-      subtle: "Deals and Shenanigans",
+      subtle: "Deals and\nShenanigans",
     },
     {
       title: "Zappos",
-      subtle: "Shoes & Cliothing",
+      subtle: "Shoes &\nCliothing",
     },
   ],
   [
     {
       title: "Ring",
-      subtle: "Smart Home Security Systems",
+      subtle: "Smart Home\nSecurity\nSystems",
     },
     {
       title: "eero WiFi",
-      subtle: "Stream 4k videosin Every Room",
+      subtle: "Stream 4k videos\nin Every Room",
     },
     {
       title: "Blink",
-      subtle: "Smart Security for Every Home",
+      subtle: "Smart Security\nfor Every Home",
     },
     {
       title: "Neighbors Aoo",
-      subtle: "Real-Time Crime & Safety Alerts",
+      subtle: "Real-Time\nCrime\n& Safety Alerts",
     },
     {
       title: "Amazon Subscription Boxes",
-      subtle: "Top subscriptrtion boxes - right to your door",
+      subtle: "Top subscriptrtion boxes -\nright to your door",
     },
     {
       title: "PilPack",
-      subtle: "Pharmacy Simplified",
+      subtle: "Pharmacy\nSimplified",
     },
   ],
 ];

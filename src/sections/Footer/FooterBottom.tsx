@@ -1,4 +1,4 @@
-import { Fragment } from "react/jsx-runtime";
+import { Fragment } from "react";
 import { footerBottomLinks } from "../../constants/footerLinks";
 import "./FooterBottom.scss";
 
@@ -7,22 +7,29 @@ const FooterBottom = () => {
     <div className="footer-bottom-container">
       <table>
         <tbody>
-          {footerBottomLinks.map((item, index) => (
-            <tr key={index}>
-              {item.map((link, index) => (
-                <Fragment key={index}>
-                  <td key={index}>
-                    <a href="#">
-                      {link.title}
-                      <br />
-                      <span>{link.subtle}</span>
-                    </a>
-                  </td>
+          {footerBottomLinks.map((item, i) => (
+            <Fragment key={i}>
+              <tr>
+                {item.map((link, j) => (
+                  <Fragment key={j}>
+                    <td className="table-item">
+                      <a href="#">
+                        {link.title}
+                        <br />
+                        <span>{link.subtle}</span>
+                      </a>
+                    </td>
 
-                  <td className="td-spacer" />
-                </Fragment>
-              ))}
-            </tr>
+                    {j < item.length - 1 && <td className="cell-spacer" />}
+                  </Fragment>
+                ))}
+              </tr>
+              {i < footerBottomLinks.length - 1 && (
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              )}
+            </Fragment>
           ))}
         </tbody>
       </table>

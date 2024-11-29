@@ -6,7 +6,7 @@
   color: #ddd;
   text-align: center;
   line-height: 18px;
-  white-space: nowrap;
+  // white-space: nowrap;
 
   table {
     max-width: 1000px;
@@ -14,12 +14,13 @@
     width: 100%;
     margin-bottom: 0;
     border-collapse: collapse;
+    padding: 0;
 
     td {
-      font-size: 12px;
-      padding: 0 0.75em;
-      text-align: left;
-      line-height: 115%;
+      font-size: 13px;
+      line-height: 120%;
+      padding: 0 10px;
+      // border: 1px solid white;
 
       a {
         color: #ddd;
@@ -27,6 +28,10 @@
 
         &:hover {
           text-decoration: underline;
+
+          span {
+            text-decoration: underline;
+          }
         }
 
         span {
@@ -39,4 +44,16 @@
       }
     }
   }
+}
+
+.cell-spacer {
+  min-width: 30px;
+}
+
+.table-item {
+  font-size: 12px !important;
+  padding: 0.75em;
+  vertical-align: top;
+  text-align: left;
+  line-height: 115%;
 }
