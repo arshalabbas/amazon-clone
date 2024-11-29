@@ -18,7 +18,7 @@
       h3 {
         font-size: 20px;
         font-weight: 700;
-        line-height: 24px;
+        line-height: 26px;
         margin-bottom: 12px;
       }
 
@@ -62,10 +62,10 @@
       white-space: normal;
       letter-spacing: normal;
       word-wrap: break-word;
-      padding-left: 12px;
+      margin-left: 12px;
 
       &:first-child {
-        padding-left: 0;
+        margin-left: 0;
       }
     }
   }

@@ -3,21 +3,21 @@ import { WrappedCard } from "../types";
 export const productCardSet1: WrappedCard[] = [
   {
     title:
-      "Samsung Galaxy Tab A9+ Tablet 11” 64GB Android Tablet, Big Screen, Quad Speakers, Upgraded Chipset, Multi Window Display, Slim, Light, Durable Design, US Version, 2024, Graphite",
-    price: "149",
-    oldPrice: "$219.99",
-    fraction: "00",
-    imgURL: "https://m.media-amazon.com/images/I/31oCHHgQVaL._SR480,440_.jpg",
-    percentage: "32% off",
-  },
-  {
-    title:
       "ASUS ROG Strix G16 (2024) Gaming Laptop, 16” 16:10 FHD 165Hz Display, NVIDIA® GeForce RTX™ 4060, Intel Core i7-13650HX, 16GB DDR5, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Windows 11, G614JV-AS74",
     price: "1099",
     oldPrice: "$1,399.99",
     fraction: "99",
     imgURL: "https://m.media-amazon.com/images/I/41kjMvKK9mL._SR480,440_.jpg",
     percentage: "21% off",
+  },
+  {
+    title:
+      "Samsung Galaxy Tab A9+ Tablet 11” 64GB Android Tablet, Big Screen, Quad Speakers, Upgraded Chipset, Multi Window Display, Slim, Light, Durable Design, US Version, 2024, Graphite",
+    price: "149",
+    oldPrice: "$219.99",
+    fraction: "00",
+    imgURL: "https://m.media-amazon.com/images/I/31oCHHgQVaL._SR480,440_.jpg",
+    percentage: "32% off",
   },
   {
     title:

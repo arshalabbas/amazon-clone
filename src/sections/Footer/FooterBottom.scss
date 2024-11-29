@@ -1,0 +1,42 @@
+.footer-bottom-container {
+  font-size: 12px;
+  background-color: #131a22;
+  padding: 30px 0;
+  margin: 30px 0;
+  color: #ddd;
+  text-align: center;
+  line-height: 18px;
+  white-space: nowrap;
+
+  table {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+
+    td {
+      font-size: 12px;
+      padding: 0 0.75em;
+      text-align: left;
+      line-height: 115%;
+
+      a {
+        color: #ddd;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        span {
+          color: #999;
+          white-space: normal;
+          display: inline-block;
+          font-size: 12px;
+          line-height: 110%;
+        }
+      }
+    }
+  }
+}
