@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import heroProducts from "../../../constants/hero";
 import GridCard from "../../cards/GridCard/GridCard";
 import ProductCard from "../../cards/ProductCard/ProductCard";
 import { CardElement } from "../../../types";
@@ -16,8 +15,11 @@ const GridLayout = ({ body }: { body: CardElement[] }) => {
           ) : (
             <ProductCard {...item} />
           )}
-          {(index + 1) % 4 === 0 && index + 1 !== heroProducts.length && (
-            <div className="v-spacer-20" />
+          {(index + 1) % 4 === 0 && index < body.length - 1 && (
+            <div className="v-spacer-20 only-desktop" />
+          )}
+          {(index + 1) % 3 === 0 && index < body.length - 1 && (
+            <div className="v-spacer-20 only-native" />
           )}
         </Fragment>
       ))}

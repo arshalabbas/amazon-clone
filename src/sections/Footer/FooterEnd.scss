@@ -1,0 +1,43 @@
+.footer-end-container {
+  font-size: 12px;
+  background-color: #131a22;
+  text-align: center;
+  color: #ddd;
+  line-height: 18px;
+  white-space: nowrap;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 0 30px;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    list-style-type: none;
+
+    li a {
+      color: #ddd;
+      text-decoration: none;
+      padding: 0 0.6em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.privacy-icon {
+  background-position: -136px -380px;
+  width: 29px;
+  height: 14px;
+  position: relative;
+  top: 2.25px;
+  white-space: normal;
+  background-image: var(--sprite-sm);
+  background-repeat: repeat-x;
+  padding: 0 0.6em;
+  margin: 0;
+  display: inline-block;
+}

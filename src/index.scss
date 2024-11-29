@@ -107,6 +107,24 @@ body {
   flex: 1 0 100%;
 }
 
+.only-desktop {
+  display: none;
+}
+
+.only-native {
+  display: inherit;
+}
+
+@media (min-width: 1238px) {
+  .only-desktop {
+    display: inherit;
+  }
+
+  .only-native {
+    display: none;
+  }
+}
+
 .v-spacer-22 {
   display: block;
   height: 22px;

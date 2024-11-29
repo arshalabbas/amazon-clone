@@ -1,5 +1,6 @@
 import "./Footer.scss";
 import FooterBottom from "./FooterBottom";
+import FooterEnd from "./FooterEnd";
 import FooterMid from "./FooterMid";
 import FooterTop from "./FooterTop";
 const Footer = () => {
@@ -12,6 +13,7 @@ const Footer = () => {
       <div className="footer-line" />
       <FooterMid />
       <FooterBottom />
+      <FooterEnd />
     </footer>
   );
 };
