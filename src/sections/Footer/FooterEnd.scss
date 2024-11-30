@@ -15,11 +15,13 @@
     justify-content: center;
     list-style: none;
     list-style-type: none;
+    margin-left: 18px;
 
     li a {
       color: #ddd;
       text-decoration: none;
       padding: 0 0.6em;
+      white-space: normal;
 
       &:hover {
         text-decoration: underline;

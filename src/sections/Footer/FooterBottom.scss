@@ -25,6 +25,7 @@
       a {
         color: #ddd;
         text-decoration: none;
+        white-space: nowrap;
 
         &:hover {
           text-decoration: underline;
@@ -36,7 +37,7 @@
 
         span {
           color: #999;
-          white-space: normal;
+          white-space: nowrap;
           display: inline-block;
           font-size: 12px;
           line-height: 110%;
@@ -47,13 +48,13 @@
 }
 
 .cell-spacer {
-  min-width: 30px;
+  width: 3%;
 }
 
 .table-item {
   font-size: 12px !important;
-  padding: 0.75em;
+  padding: 0 0.75em !important;
   vertical-align: top;
   text-align: left;
-  line-height: 115%;
+  line-height: 115% !important;
 }

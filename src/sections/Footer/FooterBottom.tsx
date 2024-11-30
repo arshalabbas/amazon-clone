@@ -14,9 +14,21 @@ const FooterBottom = () => {
                   <Fragment key={j}>
                     <td className="table-item">
                       <a href="#">
-                        {link.title}
+                        {link.title.split("\n").map((text, j) => (
+                          <Fragment key={text}>
+                            {text}
+                            {j < link.title.split("\n").length - 1 && <br />}
+                          </Fragment>
+                        ))}
                         <br />
-                        <span>{link.subtle}</span>
+                        <span>
+                          {link.subtle.split("\n").map((text, k) => (
+                            <Fragment key={text}>
+                              {text}
+                              {k < link.subtle.split("\n").length - 1 && <br />}
+                            </Fragment>
+                          ))}
+                        </span>
                       </a>
                     </td>
 

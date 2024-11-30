@@ -20,7 +20,7 @@ export const footerTopLinks: { heading: string; items: string[] }[] = [
       "Advertise Your Products",
       "Self-Publish with Us",
       "Host an Amazon Hub",
-      "See More Make Money with Us",
+      "› See More Make Money with Us",
     ],
   },
   {
@@ -48,10 +48,10 @@ export const footerTopLinks: { heading: string; items: string[] }[] = [
 
 export const footerBottomLinks: { title: string; subtle: string }[][] = [
   [
-    { title: "Amazon Music", subtle: "Stream\nmillions\nof songs" },
+    { title: "Amazon\nMusic", subtle: "Stream\nmillions\nof songs" },
     {
       title: "Amazon Ads",
-      subtle: "React customers\nwherever they\nspend their time",
+      subtle: "Reach customers\nwherever they\nspend their time",
     },
     {
       title: "6pm",
@@ -67,16 +67,16 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Sell on Amazon",
-      subtle: "Start a selling\nAccount",
+      subtle: "Start a Selling\nAccount",
     },
     {
       title: "Veeqo",
-      subtle: "Shopping Software\nInventory\nManagement",
+      subtle: "ShIpping Software\nInventory\nManagement",
     },
   ],
   [
     {
-      title: "Amazon Business",
+      title: "Amazon\nBusiness",
       subtle: "Everything\nFor\nYour\nBusiness",
     },
     {
@@ -85,10 +85,10 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Home Services",
-      subtle: "Experienced Pros\nHapiness\nGuarantee",
+      subtle: "Experienced Pros\nHappiness\nGuarantee",
     },
     {
-      title: "Amazon Web Services",
+      title: "Amazon Web\nServices",
       subtle: "Scalable Cloud\nComputing\nServices",
     },
     {
@@ -97,11 +97,11 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Box Office Mojo",
-      subtle: "Find Movies\nBox Office Data",
+      subtle: "Find Movie\nBox Office Data",
     },
     {
       title: "Goodreads",
-      subtle: "Book revieww\n&\nrecommendations",
+      subtle: "Book reviews\n&\nrecommendations",
     },
   ],
   [
@@ -114,11 +114,11 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
       subtle: "Get Info\nEntertainment\nProfessionals\nNeed",
     },
     {
-      title: "Kindle Direct Publishing",
+      title: "Kindle Direct\nPublishing",
       subtle: "Indie Digital &\nPrint Publishing\nMade Easy",
     },
     {
-      title: "Prime Video Direct",
+      title: "Prime Video\nDirect",
       subtle: "Video\nDistribution\nMade Easy",
     },
     {
@@ -131,7 +131,7 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Zappos",
-      subtle: "Shoes &\nCliothing",
+      subtle: "Shoes &\nClothing",
     },
   ],
   [
@@ -141,22 +141,22 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "eero WiFi",
-      subtle: "Stream 4k videos\nin Every Room",
+      subtle: "Stream 4K Video\nin Every Room",
     },
     {
       title: "Blink",
       subtle: "Smart Security\nfor Every Home",
     },
     {
-      title: "Neighbors Aoo",
+      title: "Neighbors App",
       subtle: "Real-Time\nCrime\n& Safety Alerts",
     },
     {
-      title: "Amazon Subscription Boxes",
-      subtle: "Top subscriptrtion boxes -\nright to your door",
+      title: "Amazon Subscription\nBoxes",
+      subtle: "Top subscription boxes -\nright to your door",
     },
     {
-      title: "PilPack",
+      title: "PillPack",
       subtle: "Pharmacy\nSimplified",
     },
   ],

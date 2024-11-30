@@ -13,7 +13,14 @@ const FooterTop = () => {
               <ul>
                 {item.items.map((link, index) => (
                   <li key={index}>
-                    <a href="#">{link}</a>
+                    {link.startsWith("›") ? (
+                      <>
+                        <span>{link[0]}</span>
+                        <a href="#">{link.slice(1)}</a>
+                      </>
+                    ) : (
+                      <a href="#">{link}</a>
+                    )}
                   </li>
                 ))}
               </ul>

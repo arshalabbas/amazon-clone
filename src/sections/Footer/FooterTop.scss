@@ -19,6 +19,13 @@
         white-space: nowrap;
         word-wrap: break-word;
 
+        span {
+          color: #ddd;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 15px;
+        }
+
         a {
           color: #ddd;
           text-decoration: none;
@@ -39,4 +46,11 @@
   font-size: 16px;
   margin: 6px 0 14px 0;
   white-space: nowrap;
+}
+
+.list-arrow::first-letter {
+  white-space: normal;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
 }
