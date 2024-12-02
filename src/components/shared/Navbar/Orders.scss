@@ -1,6 +1,5 @@
 .orders-link {
   // TODO: media queries
-  margin-left: 6px;
   padding: 0 9px;
   display: flex;
   align-items: flex-start;
@@ -13,6 +12,14 @@
   line-height: 44px;
   color: #d6d6d6;
   cursor: pointer;
+
+  @media (min-width: 1100px) {
+    margin-left: 2px;
+  }
+
+  @media (min-width: 1700px) {
+    margin-left: 6px;
+  }
 
   .line-1 {
     margin-top: 9px;
