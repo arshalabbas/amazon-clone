@@ -1,4 +1,6 @@
 nav {
+  min-width: 1000px;
+  max-width: none;
   width: 100%;
 }
 
@@ -38,12 +40,20 @@ nav {
   a {
     display: flex;
     text-decoration: none;
-    padding: 1px 8px 0 6px;
+    padding: 1px 2px 0 6px;
     margin: 1px;
     height: 50px;
     width: 100%;
     clear: both;
     cursor: pointer;
+
+    @media (min-width: 1100px) {
+      padding-right: 4px;
+    }
+
+    @media (min-width: 1700px) {
+      padding-right: 8px;
+    }
   }
 }
 
@@ -126,11 +136,12 @@ nav {
   width: 100%;
   z-index: 4;
 
-  @media (min-width: 1700px) {
-    padding-left: 15px;
-  }
   @media (min-width: 1100px) {
     padding-left: 11px;
+  }
+
+  @media (min-width: 1700px) {
+    padding-left: 15px;
   }
 }
 

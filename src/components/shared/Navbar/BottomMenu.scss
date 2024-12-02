@@ -19,7 +19,7 @@
   line-height: 12px;
 
   a {
-    padding: 8px 12px;
+    padding: 8px 9px;
     margin: 5px 0 6px 0;
     height: 12px;
     box-sizing: content-box;
@@ -28,5 +28,9 @@
     font-size: 14px;
     float: left;
     cursor: ponter;
+
+    @media (min-width: 1700px) {
+      padding: 8px 12px;
+    }
   }
 }
