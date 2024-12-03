@@ -102,3 +102,11 @@
     }
   }
 }
+
+.extra-card {
+  display: contents;
+
+  @media (min-width: 1238px) {
+    display: none;
+  }
+}

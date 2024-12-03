@@ -133,6 +133,12 @@ const heroProducts: CardElement[] = [
     body: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg",
     footer: "Shop now",
   },
+  {
+    type: "single",
+    heading: "Beauty steals under 25$",
+    body: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg",
+    footer: "Shop now",
+  },
 ];
 
 export default heroProducts;
