@@ -1,3 +1,4 @@
+import HeroTileLayout from "../../../components/layouts/HeroTileLayout/HeroTileLayout";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -6,9 +7,11 @@ const Hero = () => {
       <div className="carousel-container">
         <div className="inner-container">
           {/* Carousel List */}
-          <ol className="carousel-list"></ol>
+          {/* <ol className="carousel-list"></ol> */}
+          <img src="/banner2.jpg" />
         </div>
       </div>
+      <HeroTileLayout />
     </div>
   );
 };

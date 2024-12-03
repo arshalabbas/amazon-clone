@@ -1,0 +1,29 @@
+.message-container {
+  height: 83px;
+  max-width: 414px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.message-inner-container {
+  position: absolute;
+  width: 414px;
+  margin: 0 auto;
+  bottom: 0;
+  left: -200%;
+  right: -200%;
+  text-align: center;
+  top: 0;
+
+  a {
+    text-decoration: none;
+
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+  }
+}

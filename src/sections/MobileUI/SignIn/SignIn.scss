@@ -1,0 +1,66 @@
+.sign-in-container {
+  margin: 0.2rem 0;
+  background-color: #ffffff;
+  overflow: auto;
+  padding: 12px 15px;
+}
+
+.heading-container {
+  padding-bottom: 8px;
+  // overflow: hidden;
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3em;
+    max-height: 2.6em;
+    word-break: normal;
+    position: relative;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+.sign-in-btn {
+  position: relative;
+  border-radius: 100px;
+  width: 100%;
+  background: #ffd814;
+  border: #ffd814 solid 1px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  vertical-align: middle;
+  margin-top: 4px;
+
+  a {
+    color: #0f1111;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.35;
+    padding: 12px 16px 12px 17px;
+    text-align: center;
+  }
+}
+
+.sign-up-link-container {
+  padding-top: 13px;
+  font-weight: 400;
+
+  a {
+    text-decoration: none;
+    color: var(--text-link);
+    line-height: 1.3em;
+    position: relative;
+    word-break: normal;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    white-space: normal;
+    font-size: 15px;
+  }
+}

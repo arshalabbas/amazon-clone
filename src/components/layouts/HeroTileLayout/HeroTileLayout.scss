@@ -1,0 +1,13 @@
+.hero-tile-layout-container {
+  height: 190px;
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  z-index: 10;
+
+  .tile-inner-container {
+    height: 180px;
+    width: max-content;
+    margin: 5px 0 5px 8px;
+  }
+}
