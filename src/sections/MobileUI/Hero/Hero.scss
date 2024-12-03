@@ -1,0 +1,37 @@
+.carousel-container {
+  height: 63vw;
+  width: 100%;
+
+  .inner-container {
+    width: 100%;
+    overflow: hidden;
+    min-height: 0.1rem;
+    position: relative;
+    height: 78vw;
+  }
+}
+
+.carousel-list {
+  width: 1920px;
+  list-style-type: none;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: visible;
+  color: #0f1111;
+  letter-spacing: -0.4rem;
+
+  li {
+    visibility: visible;
+    width: 320px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+    min-height: 100%;
+    list-style-type: none;
+    display: inline-block;
+    white-space: normal;
+    letter-spacing: normal;
+    word-wrap: break-word;
+  }
+}

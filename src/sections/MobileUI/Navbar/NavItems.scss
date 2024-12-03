@@ -3,7 +3,7 @@ nav {
   display: flex;
   overflow-x: scroll;
   padding-top: 12px;
-  background: #ff7a26;
+  background: #085749;
   width: 100%;
 
   &::-webkit-scrollbar {
@@ -13,7 +13,7 @@ nav {
   }
 
   a {
-    color: #161d26;
+    color: var(--text-light);
     margin: 0 0 20px 15px;
     padding-right: 3px;
     line-height: 15px;
