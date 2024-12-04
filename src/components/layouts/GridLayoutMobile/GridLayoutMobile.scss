@@ -7,19 +7,17 @@
 
 .title-container {
   padding-bottom: 8px;
+  // overflow: hidden;
 
   h3 {
+    font-weight: 700;
+    font-size: 18px;
     line-height: 1.3em;
     max-height: 2.6em;
     word-break: normal;
     position: relative;
     width: 100%;
-    overflow: hidden;
-    height: auto;
     white-space: normal;
-    font-weight: 700;
-    font-size: 18px;
-    // line-height: 1.25;
   }
 }
 
@@ -55,7 +53,7 @@
 }
 
 .grid-layout-footer {
-  padding-top: 14px;
+  padding-top: 13px;
   font-weight: 400;
 
   a {
