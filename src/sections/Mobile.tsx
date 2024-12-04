@@ -11,11 +11,13 @@ const Mobile = () => {
       <Navbar />
       <Hero />
       {/* Amazon.com Region Message */}
-      <div className="message-container">
-        <div className="message-inner-container">
-          <a href="#">
-            <img src="/region_message.jpg" alt="region-message-image" />
-          </a>
+      <div className="message-outer-container">
+        <div className="message-container">
+          <div className="message-inner-container">
+            <a href="#">
+              <img src="/region_message.jpg" alt="region-message-image" />
+            </a>
+          </div>
         </div>
       </div>
       {/* Region Message End */}

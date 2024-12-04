@@ -2,6 +2,10 @@
   font-size: 15px;
 }
 
+.message-outer-container {
+  margin: 5px 0;
+}
+
 .message-container {
   height: 83px;
   max-width: 414px;
@@ -9,7 +13,6 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin: 5px 0;
 }
 
 .message-inner-container {
