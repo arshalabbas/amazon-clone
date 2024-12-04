@@ -4,6 +4,7 @@ import Navbar from "./MobileUI/Navbar/Navbar";
 import "./Mobile.scss";
 import SignIn from "./MobileUI/SignIn/SignIn";
 import GridLayoutMobile from "../components/layouts/GridLayoutMobile/GridLayoutMobile";
+import { mobileGridProductsSet1 } from "../constants/mobileGridProductsSet";
 const Mobile = () => {
   return (
     <main>
@@ -19,10 +20,9 @@ const Mobile = () => {
       </div>
       {/* Region Message End */}
       <SignIn />
-      <GridLayoutMobile />
-      <GridLayoutMobile />
-      <GridLayoutMobile />
-      <GridLayoutMobile />
+      {mobileGridProductsSet1.map((item) => (
+        <GridLayoutMobile {...item} key={item.title} />
+      ))}
     </main>
   );
 };

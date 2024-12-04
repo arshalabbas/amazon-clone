@@ -1,29 +1,28 @@
+import { MobileGridCard } from "../../../types";
 import "./GridLayoutMobile.scss";
 
-const LayoutBodyItem = () => (
+const LayoutBodyItem = ({ label, image }: { label: string; image: string }) => (
   <a className="grid-body-item-container">
-    <img
-      src="https://m.media-amazon.com/images/I/31hqkoNqvTL._SR420,420_.jpg"
-      alt="product-image"
-    />
-    <div className="grid-body-item-label">Desktops</div>
+    <img src={image} alt={`${label}-image`} />
+    <div className="grid-body-item-label">{label}</div>
   </a>
 );
 
-const GridLayoutMobile = () => {
+const GridLayoutMobile = ({ title, body, footer }: MobileGridCard) => {
   return (
     <div className="grid-layout-container">
       <div className="title-container">
-        <h3>Score the top PCs & Accessories</h3>
+        <h3>{title}</h3>
       </div>
       <div className="grid-layout-body">
-        <LayoutBodyItem />
-        <LayoutBodyItem />
-        <LayoutBodyItem />
-        <LayoutBodyItem />
+        {body.map((item) => (
+          <LayoutBodyItem {...item} key={item.label} />
+        ))}
       </div>
       <div className="grid-layout-footer">
-        <a href="#">See more</a>
+        <a href="#">
+          <span>{footer}</span>
+        </a>
       </div>
     </div>
   );

@@ -9,8 +9,8 @@
   padding-bottom: 8px;
 
   h3 {
-    line-height: 13px;
-    max-height: 26px;
+    line-height: 1.3em;
+    max-height: 2.6em;
     word-break: normal;
     position: relative;
     width: 100%;
@@ -19,7 +19,7 @@
     white-space: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.25;
+    // line-height: 1.25;
   }
 }
 
@@ -55,21 +55,24 @@
 }
 
 .grid-layout-footer {
-  padding-top: 13px;
+  padding-top: 14px;
   font-weight: 400;
 
   a {
-    text-decoration: none;
-    color: var(--text-link);
-    line-height: 1.3em;
-    max-height: 1.3em;
+    line-height: 19.5px;
+    max-height: 19.5px;
     display: block;
-    word-break: normal;
-    position: normal;
+    position: relative;
     width: 100%;
-    height: auto;
     overflow: hidden;
-    white-space: normal;
-    font-size: 15px;
+
+    span {
+      font-size: 15px;
+      height: auto;
+      width: 100%;
+      white-space: normal;
+      display: inline-block;
+      color: var(--text-link);
+    }
   }
 }

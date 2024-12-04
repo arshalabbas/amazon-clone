@@ -23,3 +23,9 @@ export interface WrappedCard {
   imgURL: string;
   percentage: string;
 }
+
+export interface MobileGridCard {
+  title: string;
+  body: { image: string; label: string }[];
+  footer: string;
+}

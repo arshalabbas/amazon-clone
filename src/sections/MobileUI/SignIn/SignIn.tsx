@@ -10,7 +10,9 @@ const SignIn = () => {
         <a href="#">Sign in securely</a>
       </div>
       <div className="sign-up-link-container">
-        <a href="#">Create an account</a>
+        <a href="#">
+          <span>Create an account</span>
+        </a>
       </div>
     </div>
   );

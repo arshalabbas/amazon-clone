@@ -1,5 +1,5 @@
 .sign-in-container {
-  margin: 0.2rem 0;
+  margin: 2px 0;
   background-color: #ffffff;
   overflow: auto;
   padding: 12px 15px;
@@ -51,16 +51,35 @@
   padding-top: 13px;
   font-weight: 400;
 
+  // a {
+  //   text-decoration: none;
+  //   color: var(--text-link);
+  //   line-height: 1.3em;
+  //   position: relative;
+  //   word-break: normal;
+  //   width: 100%;
+  //   overflow: hidden;
+  //   height: auto;
+  //   white-space: normal;
+  //   font-size: 15px;
+  //   display: inline-block;
+  // }
+
   a {
-    text-decoration: none;
-    color: var(--text-link);
-    line-height: 1.3em;
+    line-height: 19.25px;
+    max-height: 19.25px;
+    display: block;
     position: relative;
-    word-break: normal;
     width: 100%;
     overflow: hidden;
-    height: auto;
-    white-space: normal;
-    font-size: 15px;
+
+    span {
+      font-size: 15px;
+      height: auto;
+      width: 100%;
+      white-space: normal;
+      display: inline-block;
+      color: var(--text-link);
+    }
   }
 }
