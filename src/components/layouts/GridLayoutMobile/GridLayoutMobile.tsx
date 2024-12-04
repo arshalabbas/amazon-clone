@@ -11,7 +11,7 @@ const LayoutBodyItem = ({ label, image }: { label: string; image: string }) => (
 const GridLayoutMobile = ({ title, body, footer }: MobileGridCard) => {
   return (
     <div className="grid-layout-container">
-      <div className="title-container">
+      <div className="grid-title-container">
         <h3>{title}</h3>
       </div>
       <div className="grid-layout-body">

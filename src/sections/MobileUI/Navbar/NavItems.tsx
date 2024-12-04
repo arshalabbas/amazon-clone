@@ -16,13 +16,13 @@ const navLinks = [
 
 const NavItems = () => {
   return (
-    <nav>
+    <div className="native-nav-items">
       {navLinks.map((label) => (
         <a href="#" key={label}>
           {label}
         </a>
       ))}
-    </nav>
+    </div>
   );
 };
 

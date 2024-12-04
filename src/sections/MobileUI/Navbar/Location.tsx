@@ -2,7 +2,7 @@ import "./Location.scss";
 
 const Location = () => {
   return (
-    <div className="location">
+    <div className="native-location">
       <div className="inner-container">
         <div className="location-icon" />
         <div className="location-label">Deliver to India ⌵</div>

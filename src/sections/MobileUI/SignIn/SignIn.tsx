@@ -2,8 +2,8 @@ import "./SignIn.scss";
 
 const SignIn = () => {
   return (
-    <div className="sign-in-container">
-      <div className="heading-container">
+    <div className="native-sign-in-container">
+      <div className="native-heading-container">
         <h3>Sign in for the best experience</h3>
       </div>
       <div className="sign-in-btn">

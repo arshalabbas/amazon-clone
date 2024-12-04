@@ -7,7 +7,7 @@ import GridLayoutMobile from "../components/layouts/GridLayoutMobile/GridLayoutM
 import { mobileGridProductsSet1 } from "../constants/mobileGridProductsSet";
 const Mobile = () => {
   return (
-    <main>
+    <section className="native-section">
       <Navbar />
       <Hero />
       {/* Amazon.com Region Message */}
@@ -23,7 +23,7 @@ const Mobile = () => {
       {mobileGridProductsSet1.map((item) => (
         <GridLayoutMobile {...item} key={item.title} />
       ))}
-    </main>
+    </section>
   );
 };
 

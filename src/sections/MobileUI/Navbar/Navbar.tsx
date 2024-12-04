@@ -5,14 +5,14 @@ import NavMid from "./NavMid";
 
 const Navbar = () => {
   return (
-    <header>
+    <div className="native-header">
       {/* Nav Top Section */}
       <div className="nav-logo-belt">
         <div className="logo-belt-top">
           <a href="#" className="menu-bar-icon">
             <i></i>
           </a>
-          <div className="logo-container">
+          <div className="native-logo-container">
             <a href="#">
               <span></span>
             </a>
@@ -25,9 +25,9 @@ const Navbar = () => {
           <a href="#" className="account-icon">
             <i></i>
           </a>
-          <a href="#" className="cart-btn">
+          <a href="#" className="native-cart-btn">
             <div className="inner-container">
-              <span className="cart-icon">
+              <span className="native-cart-icon">
                 <span className="cart-count">0</span>
               </span>
             </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <NavMid />
       <NavItems />
       <Location />
-    </header>
+    </div>
   );
 };
 
