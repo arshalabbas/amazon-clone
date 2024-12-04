@@ -2,16 +2,16 @@ import "./HeroTileCard.scss";
 
 const HeroTileCard = ({
   imageURL,
-  key = 0,
+  index = 0,
 }: {
   imageURL: string;
-  key?: string | number;
+  index?: string | number;
 }) => {
   return (
     <div className="hero-tile-card-container">
       <div className="inner-container">
         <a href="#">
-          <img src={imageURL} alt={"tile-image" + key} />
+          <img src={imageURL} alt={"tile-image" + index} />
         </a>
       </div>
     </div>
