@@ -1,0 +1,47 @@
+.icp-container {
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 1em;
+
+  .label {
+    color: #ccc;
+  }
+}
+
+.icp-option {
+  display: inline-block;
+  text-decoration: none;
+  background: 0 0;
+  font-size: 14px;
+  padding: 1em 0.9em;
+  text-align: left;
+}
+
+.icp-globe-icon {
+  background-position: -77px -24px;
+  background-image: var(--flags-sprite);
+  background-size: 194px 295px;
+  width: 15px;
+  height: 15px;
+  top: 0.2em;
+  left: -0.6em;
+  position: relative;
+  display: inline-block;
+}
+
+.icp-currency {
+  color: #fff;
+  margin: 0 0.5em;
+}
+
+.icp-flag {
+  background-position: -54px -108px;
+  margin: 0 0.5em;
+  top: 1px;
+  background-image: var(--flags-sprite);
+  background-size: 194px 295px;
+  width: 18px;
+  position: relative;
+  display: inline-block;
+  height: 12px;
+}

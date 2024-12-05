@@ -1,10 +1,11 @@
 import "./Footer.scss";
+import FooterICP from "./FooterICP";
 import FooterNav from "./FooterNav";
 
 const Footer = () => {
   return (
     <div className="native-footer">
-      <div>
+      <div className="inner-container">
         {/* TOP to Bottom Button */}
         <a href="#" className="native-top-to-bottom">
           <i></i>
@@ -12,6 +13,7 @@ const Footer = () => {
         </a>
 
         <FooterNav />
+        <FooterICP />
       </div>
     </div>
   );
