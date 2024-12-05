@@ -507,3 +507,144 @@ export const mobileGridProductsSet4 = {
   ],
   footer: "See more",
 };
+
+export const mobileGridProductsSet5 = {
+  title: "Accessorize your life",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/413lM0C0PEL._SR420,420_.jpg",
+      label: "Fashion accessories",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/410LHEUGZ5L._SR420,420_.jpg",
+      label: "Men's accessories",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41IIOwmruhL._SR420,420_.jpg",
+      label: "Health and beauty",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/31KVFrr1USL._SR420,420_.jpg",
+      label: "Sports",
+    },
+  ],
+  footer: "Shop more",
+};
+
+export const noTitleSet4 = {
+  title: "Women's fashion sneakers",
+  body: [
+    "https://m.media-amazon.com/images/I/71ROYRVxcRL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/71negByf12L._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61B-+FkusqL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/81kFU38JnrL._AC_SY400_.jpg",
+  ],
+  footer: "See more",
+};
+
+export const mobileGridProductsSet6 = {
+  title: "Curate your space",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/415fShfBidL._SR420,420_.jpg",
+      label: "Candles",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41eHYxK1H4L._SR420,420_.jpg",
+      label: "Stylish pillows",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41RqiI-5T5L._SR420,420_.jpg",
+      label: "Indoor gardening",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41wRrAnGAJL._SR420,420_.jpg",
+      label: "Storage organization",
+    },
+  ],
+  footer: "See more",
+};
+
+export const mobileGridProductsSet7 = {
+  title: "Look your best this season",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/41u9C4AnoaL._SR420,420_.jpg",
+      label: "For Her",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41mhTFj8EhL._SR420,420_.jpg",
+      label: "For Him",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41VUN4-BMYL._SR420,420_.jpg",
+      label: "For Teens",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/413w78Z-7PL._SR420,420_.jpg",
+      label: "For Kids",
+    },
+  ],
+  footer: "See more",
+};
+
+export const noTitleSet5 = {
+  title: "Must have Baby products",
+  body: [
+    "https://m.media-amazon.com/images/I/712fV9oRPRL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/81rj+Or7PkL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/71MdTu854bL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/71ff5+NJmyL._AC_SY400_.jpg",
+  ],
+  footer: "Shop now",
+};
+
+export const noTitleSet6 = [
+  {
+    title: "Tech Accessories under $10",
+    body: [
+      "https://m.media-amazon.com/images/I/71IOmppmHBL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/718LiCraQ2L._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/61mK2ooNdTL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71nKG2w6ENL._AC_SY400_.jpg",
+    ],
+    footer: "Shop now",
+  },
+  {
+    title: "Girls’ everyday essentials",
+    body: [
+      "https://m.media-amazon.com/images/I/81ercP15AfL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/61oQDYgzSbL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/81Angw3PQ-L._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71tPcJGvuIL._AC_SY400_.jpg",
+    ],
+    footer: "See more",
+  },
+];
+
+export const imageCardSet1 = [
+  {
+    title: "Home &amp; Kitchen Under $30",
+    image: "https://m.media-amazon.com/images/I/71f9hsOGWsL._SR1910,1910_.jpg",
+  },
+  {
+    title: "Yoga needs under $50",
+    image: "https://m.media-amazon.com/images/I/51cRUkQL3-L._SR1050,1050_.jpg",
+  },
+  {
+    title: "Find new ways to wake up happy",
+    image: "https://m.media-amazon.com/images/I/51euY80-ZXL._SR1050,1050_.jpg",
+  },
+  {
+    title: "Bestsellers in Books",
+    image: "https://m.media-amazon.com/images/I/311IK6Sn+0L._SR200,200_.jpg",
+  },
+  {
+    title: "Must-have deals for everyone",
+    image: "https://m.media-amazon.com/images/I/21gEw6UICKL._SR200,200_.jpg",
+  },
+  {
+    title: "Must-have deals for everyone",
+    image: "https://m.media-amazon.com/images/I/91spAqh-E2L._SR1050,1050_.png",
+  },
+];

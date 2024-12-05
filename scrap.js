@@ -40,6 +40,28 @@ function scrapGridCards() {
   JSON.stringify(data);
 }
 
+function scrapImageData() {
+  const data = [];
+
+  for (let i = 44; i < 49; i++) {
+    const layout = document.querySelector(
+      `[data-cel-widget="card-${i.toString().padStart(2, "0")}"]`
+    );
+
+    let datum = {
+      title: "",
+      image: "",
+    };
+
+    datum.title = layout.querySelector("h3 span.a-truncate-cut").innerHTML;
+    datum.image = layout.querySelectorAll(".a-cardui-body a img").src;
+
+    data.push(datum);
+  }
+
+  JSON.stringify(data);
+}
+
 /**
  * Scrap the no labels cards
  */
