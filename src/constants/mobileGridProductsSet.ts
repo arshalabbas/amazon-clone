@@ -1,3 +1,5 @@
+import { MobileGridCard } from "../types";
+
 export const mobileGridProductsSet1 = [
   {
     title: "Score the top PCs & Accessories",
@@ -259,4 +261,63 @@ export const mobileGridProductsSet1 = [
     ],
     footer: "Shop Luxury",
   },
+  {
+    title: "Premium home",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/51BkpvufB2L._SR540,200_.jpg",
+        label: "Kitchen & dining",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/51wDX1obV7L._SR540,200_.jpg",
+        label: "Furniture",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/51mCpQmSLsL._SR540,200_.jpg",
+        label: "Bedding",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41NU3wPzo4L._SR540,200_.jpg",
+        label: "Home improvement",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/51tvJWS7SML._SR540,200_.jpg",
+        label: "Garden & outdoors",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/51Q8y+nyRvL._SR540,200_.jpg",
+        label: "Décor",
+      },
+    ],
+    footer: "Shop long-lasting picks",
+  },
 ];
+
+export const bentoGridSet1: MobileGridCard = {
+  title: "Get ready for a day out with your little one",
+  body: [
+    {
+      label: "Snacks & food",
+      image: "https://m.media-amazon.com/images/I/31-DyDlXzXL._SY400_.jpg",
+    },
+    {
+      label: "Toys",
+      image: "https://m.media-amazon.com/images/I/31ctiUOeukL._SY220_.jpg",
+    },
+    {
+      label: "Strollers",
+      image: "https://m.media-amazon.com/images/I/21Q2e9vs7lL._SY220_.jpg",
+    },
+    {
+      label: "Car Seats",
+      image: "https://m.media-amazon.com/images/I/215ckmhmeOL._SY220_.jpg",
+    },
+  ],
+  footer: "Explore more",
+};

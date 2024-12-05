@@ -1,0 +1,180 @@
+.bento-card-container {
+  margin: 5px 0;
+  background-color: #ffffff;
+  overflow: auto;
+  padding: 12px 15px;
+}
+
+.bento-title-container {
+  padding-bottom: 8px;
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+  }
+}
+
+.bento-title-inner-container {
+  line-height: 1.3em;
+  max-height: 2.6em;
+  display: block;
+  word-break: normal;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  span {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+.bento-card-body {
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  padding: 0;
+
+  .lg-section {
+    margin-bottom: 8px;
+
+    a {
+      color: var(--text-link);
+      font-weight: normal;
+      font-style: normal;
+      text-transform: none;
+      text-decoration: none;
+    }
+  }
+}
+
+.lg-image-container {
+  height: 200px;
+
+  div {
+    border-radius: 4px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    img {
+      height: 100%;
+      position: absolute;
+      left: -9999px;
+      right: -9999px;
+      max-width: none;
+      margin: auto;
+      vertical-align: top;
+    }
+  }
+}
+
+.lg-title-container {
+  color: var(--text-dark);
+  line-height: 1.3em;
+  max-height: 1.3em;
+  display: block;
+  word-break: break-all;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  font-size: 15px;
+
+  span {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+.bento-row {
+  display: flex;
+  overflow: auto;
+}
+
+.bento-row-item {
+  margin-left: 8px;
+  display: inline-block;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.sm-image-container {
+  height: 110px;
+
+  div {
+    border-radius: 4px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    img {
+      height: 100%;
+      position: absolute;
+      left: -9999px;
+      right: -9999px;
+      max-width: none;
+      margin: auto;
+      vertical-align: top;
+    }
+  }
+}
+
+.sm-label-container {
+  color: var(--text-dark);
+  line-height: 1.3em;
+  max-height: 1.3em;
+  display: block;
+  word-break: break-all;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  font-size: 15px;
+
+  span {
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+.bento-footer {
+  padding: 0;
+  padding-top: 13px;
+  font-weight: 400;
+
+  a {
+    text-decoration: none;
+    color: var(--text-link);
+  }
+}
+
+.bento-footer-text-container {
+  line-height: 1.3em;
+  max-height: 1.3em;
+  display: block;
+  word-break: normal;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  span {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+  }
+}
