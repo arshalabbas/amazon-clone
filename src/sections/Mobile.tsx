@@ -7,8 +7,15 @@ import GridLayoutMobile from "../components/layouts/GridLayoutMobile/GridLayoutM
 import {
   bentoGridSet1,
   mobileGridProductsSet1,
+  mobileGridProductsSet2,
+  mobileGridProductsSet3,
+  mobileGridProductsSet4,
+  noTitleSet1,
+  noTitleSet2,
+  noTitleSet3,
 } from "../constants/mobileGridProductsSet";
 import BentoGridCard from "../components/cards/BentoGridCard/BentoGridCard";
+import NoLabelGridCard from "../components/cards/NoLabelGridCard/NoLabelGridCard";
 
 const Mobile = () => {
   return (
@@ -30,7 +37,19 @@ const Mobile = () => {
       {mobileGridProductsSet1.map((item) => (
         <GridLayoutMobile {...item} key={item.title} />
       ))}
+
       <BentoGridCard {...bentoGridSet1} />
+
+      <NoLabelGridCard {...noTitleSet1} />
+
+      <GridLayoutMobile {...mobileGridProductsSet3} />
+      <NoLabelGridCard {...noTitleSet2} />
+      {mobileGridProductsSet2.map((item) => (
+        <GridLayoutMobile {...item} key={item.title} />
+      ))}
+      <NoLabelGridCard {...noTitleSet3} />
+
+      <GridLayoutMobile {...mobileGridProductsSet4} />
     </section>
   );
 };

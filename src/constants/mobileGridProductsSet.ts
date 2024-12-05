@@ -321,3 +321,189 @@ export const bentoGridSet1: MobileGridCard = {
   ],
   footer: "Explore more",
 };
+
+export const mobileGridProductsSet2 = [
+  {
+    title: "Level up your beauty routine",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/31aJyAdILmL._SR420,420_.jpg",
+        label: "Makeup",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41MIeNiwdhL._SR420,420_.jpg",
+        label: "Brushes",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/31wSz8gA5wL._SR420,420_.jpg",
+        label: "Sponges",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/21xHtP1ZnlL._SR420,420_.jpg",
+        label: "Mirrors",
+      },
+    ],
+    footer: "See more",
+  },
+  {
+    title: "Handpicked home theater",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41Nldn0FGML._SR420,420_.jpg",
+        label: "Televisions",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/4198T9z6hjL._SR420,420_.jpg",
+        label: "Speakers",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41Z1yvPi2rL._SR420,420_.jpg",
+        label: "Soundbars",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41J5MFD8nnL._SR420,420_.jpg",
+        label: "Projectors",
+      },
+    ],
+    footer: "See more products",
+  },
+  {
+    title: "Fashion trends in Shoes",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41EQyn8aFaL._SR420,420_.jpg",
+        label: "Shop women's",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41VYpl4X2CL._SR420,420_.jpg",
+        label: "Shop men's",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41-zOL2WhXL._SR420,420_.jpg",
+        label: "Shop kids'",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/61CgHE-YLyL._SR1050,1050_.jpg",
+        label: "Shop more shoes",
+      },
+    ],
+    footer: "Shop more",
+  },
+  {
+    title: "New home arrivals under $50",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41I85MytToL._SR420,420_.jpg",
+        label: "Kitchen & dining",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41mb6AUCJSL._SR420,420_.jpg",
+        label: "Home improvement",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/41J1-iazq6L._SR420,420_.jpg",
+        label: "Décor",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/417HmRJ2WJL._SR420,420_.jpg",
+        label: "Bedding & bath",
+      },
+    ],
+    footer: "Shop the latest from Home",
+  },
+];
+
+export const noTitleSet1 = {
+  title: "Tablets under $100",
+  body: [
+    "https://m.media-amazon.com/images/I/61uHJ+pWHSL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/71QnWMft5RL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/4163VZUEVjL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61yvaMI0GOL._AC_SY400_.jpg",
+  ],
+  footer: "Shop now",
+};
+
+export const mobileGridProductsSet3 = {
+  title: "Have more fun with the family",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/31uBBG+KvtL._SR420,420_.jpg",
+      label: "Outdoor Play Sets",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/31QJz8+ereL._SR420,420_.jpg",
+      label: "Learning Toys",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/310Ke5y4pBL._SR420,420_.jpg",
+      label: "Action Figures",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/416Kr1IKmgL._SR420,420_.jpg",
+      label: "Pretend Play Toys",
+    },
+  ],
+  footer: "See more",
+};
+
+export const noTitleSet2 = {
+  title: "Discount Electronics",
+  body: [
+    "https://m.media-amazon.com/images/I/511ZuA8SAOL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61XRq0DE9zL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/51MiWoHlRXL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/51r8ko5WAvL._AC_SY400_.jpg",
+  ],
+  footer: "See more",
+};
+
+export const noTitleSet3 = {
+  title: "Best sellers in Electronics",
+  body: [
+    "https://m.media-amazon.com/images/I/81O5GR2n+xL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61PzLRRxRbL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61XRiMZ9oNL._AC_SY400_.jpg",
+    "https://m.media-amazon.com/images/I/61sVdyHDjbL._AC_SY400_.jpg",
+  ],
+  footer: "See more",
+};
+
+export const mobileGridProductsSet4 = {
+  title: "Gaming merchandise",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/31y+QwIZnWL._SR419,421_.jpg",
+      label: "Apparel",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/21g1F3v5SML._SR419,421_.jpg",
+      label: "Hats",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/31zdVJJOPCL._SR419,421_.jpg",
+      label: "Action figures",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/41Vq1DhHdQL._SR419,421_.jpg",
+      label: "Mugs",
+    },
+  ],
+  footer: "See more",
+};

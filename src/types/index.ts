@@ -29,3 +29,9 @@ export interface MobileGridCard {
   body: { image: string; label: string }[];
   footer: string;
 }
+
+export interface NoLabelCard {
+  title: string;
+  body: string[];
+  footer: string;
+}
