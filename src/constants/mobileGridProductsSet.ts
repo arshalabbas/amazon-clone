@@ -648,3 +648,34 @@ export const imageCardSet1 = [
     image: "https://m.media-amazon.com/images/I/91spAqh-E2L._SR1050,1050_.png",
   },
 ];
+
+export const exploreDepartments = {
+  title: "Explore Departments",
+  body: [
+    {
+      image: "https://m.media-amazon.com/images/I/71wBEshTCUL._SR540,200_.png",
+      label: "Beauty",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/61uornUdm-L._SR540,200_.png",
+      label: "Home and Kitchen",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/71sUjeGHWdL._SR540,200_.png",
+      label: "Sports and Outdoors",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/71JhsiGGjqL._SR540,200_.png",
+      label: "Electronics",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/71OooRMu+tL._SR540,200_.png",
+      label: "Outdoor Clothing",
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/7166hIvPMnL._SR540,200_.png",
+      label: "Pet Supplies",
+    },
+  ],
+  footer: "All Departments",
+};

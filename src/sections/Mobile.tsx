@@ -6,6 +6,7 @@ import SignIn from "./MobileUI/SignIn/SignIn";
 import GridLayoutMobile from "../components/layouts/GridLayoutMobile/GridLayoutMobile";
 import {
   bentoGridSet1,
+  exploreDepartments,
   imageCardSet1,
   mobileGridProductsSet1,
   mobileGridProductsSet2,
@@ -110,6 +111,15 @@ const Mobile = () => {
       ))}
 
       {/* TODO: Detailed Card 5 */}
+
+      {/* End Strip */}
+      <div className="end-strip">
+        <div />
+        <span>You've reached the end. Keep exploring!</span>
+        <div />
+      </div>
+
+      <GridLayoutMobile {...exploreDepartments} />
     </section>
   );
 };

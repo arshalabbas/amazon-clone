@@ -34,3 +34,30 @@
     }
   }
 }
+
+.end-strip {
+  color: #555;
+  display: flex;
+  font-size: 13px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+
+  div {
+    &::before {
+      content: "";
+      border-top: 1px solid #879596;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      z-index: -1;
+    }
+  }
+
+  span {
+    overflow: hidden;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+  }
+}
