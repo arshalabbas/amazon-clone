@@ -25,6 +25,14 @@ import {
 import BentoGridCard from "../components/cards/BentoGridCard/BentoGridCard";
 import NoLabelGridCard from "../components/cards/NoLabelGridCard/NoLabelGridCard";
 import ImageProductCard from "../components/cards/ImageProductCard/ImageProductCard";
+import DetailedCardLayout from "../components/layouts/DetailedCardLayout/DetailedCardLayout";
+import {
+  detailedCardsSet1,
+  detailedCardsSet2,
+  detailedCardsSet3,
+  detailedCardsSet4,
+  detailedCardsSet5,
+} from "../constants/detailedCardsMobile";
 
 const Mobile = () => {
   return (
@@ -81,11 +89,17 @@ const Mobile = () => {
         image="https://m.media-amazon.com/images/I/51TI9bxbVkL._SR760,610_.jpg"
       />
 
-      {/* TODO: Detailed Card 1 */}
+      <DetailedCardLayout
+        title="Top picks for India"
+        body={detailedCardsSet1}
+      />
 
       <GridLayoutMobile {...mobileGridProductsSet7} />
 
-      {/* TODO: Detailed Card 2 */}
+      <DetailedCardLayout
+        title="New international custmers purchased"
+        body={detailedCardsSet2}
+      />
 
       <NoLabelGridCard {...noTitleSet5} />
       <ImageProductCard
@@ -97,20 +111,29 @@ const Mobile = () => {
         <NoLabelGridCard {...item} key={item.title} />
       ))}
 
-      {/* TODO: Detailed Card 3 */}
+      <DetailedCardLayout
+        title="Popular items this season"
+        body={detailedCardsSet3}
+      />
 
       <ImageProductCard
         title="Toys under $30"
         image="https://m.media-amazon.com/images/I/61HgDXK2NvL._SR1050,1050_.jpg"
       />
 
-      {/* TODO: Detialed Card 4 */}
+      <DetailedCardLayout
+        title="International top sellers"
+        body={detailedCardsSet4}
+      />
 
       {imageCardSet1.map((item) => (
         <ImageProductCard {...item} key={item.title} />
       ))}
 
-      {/* TODO: Detailed Card 5 */}
+      <DetailedCardLayout
+        title="Top Sellers in Books for you"
+        body={detailedCardsSet5}
+      />
 
       {/* End Strip */}
       <div className="end-strip">

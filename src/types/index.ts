@@ -35,3 +35,11 @@ export interface NoLabelCard {
   body: string[];
   footer: string;
 }
+
+export interface DetailedCard {
+  title: string;
+  price: string;
+  oldPrice?: string;
+  fraction: string;
+  image: string;
+}

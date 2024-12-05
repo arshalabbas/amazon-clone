@@ -66,20 +66,60 @@ function scrapImageData() {
  * Scrap the no labels cards
  */
 
-const data = { title: "", body: [], footer: "" };
+function scrapNoLabelCard() {
+  const data = { title: "", body: [], footer: "" };
 
-const layout = document.querySelector("[data-cel-widget='card-24']");
+  const layout = document.querySelector("[data-cel-widget='card-24']");
 
-data.title = layout.querySelector(
-  ".a-cardui-header span.a-truncate-cut"
-).innerHTML;
+  data.title = layout.querySelector(
+    ".a-cardui-header span.a-truncate-cut"
+  ).innerHTML;
 
-layout
-  .querySelectorAll(".a-cardui-body a img")
-  .forEach((item) => data.body.push(item.src));
+  layout
+    .querySelectorAll(".a-cardui-body a img")
+    .forEach((item) => data.body.push(item.src));
 
-data.footer = layout.querySelector(
-  ".a-cardui-footer span.a-truncate-cut"
-).innerHTML;
+  data.footer = layout.querySelector(
+    ".a-cardui-footer span.a-truncate-cut"
+  ).innerHTML;
+
+  JSON.stringify(data);
+}
+
+/**
+ *
+ * Detailed Card Scrapping
+ */
+
+const elements = document.querySelectorAll(
+  '#arsh-cards .a-section[data-info=""]'
+);
+const data = Array.from(elements).map((element) => {
+  const title = element.querySelector("span.a-truncate-full")
+    ? element.querySelector("span.a-truncate-full").innerText.trim()
+    : "";
+  const image = element.querySelector("img")
+    ? element.querySelector("img").src
+    : "";
+  const priceElement = element.querySelector("span.a-price .a-price-whole");
+  const price = priceElement ? priceElement.innerText.trim() : "";
+  const oldPriceElement = element.querySelector(
+    "span.a-price-range .a-text-price .a-offscreen"
+  );
+  const oldPrice = oldPriceElement
+    ? oldPriceElement.innerText.trim()
+    : undefined;
+  const fraction = element.querySelector("span.a-price .a-price-fraction")
+    ? element.querySelector("span.a-price .a-price-fraction").innerText.trim()
+    : "";
+
+  return {
+    title,
+    image,
+    price,
+    oldPrice,
+    fraction,
+  };
+});
 
 JSON.stringify(data);
