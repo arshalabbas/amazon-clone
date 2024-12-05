@@ -1,5 +1,6 @@
 import "./Footer.scss";
 import FooterICP from "./FooterICP";
+import FooterLinks from "./FooterLinks";
 import FooterNav from "./FooterNav";
 
 const Footer = () => {
@@ -14,6 +15,18 @@ const Footer = () => {
 
         <FooterNav />
         <FooterICP />
+
+        <div className="auth">
+          Already a customer?
+          <a href="#">Sign in</a>
+        </div>
+
+        <FooterLinks />
+
+        <div className="native-copy">
+          © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+        <div className="v-spacer-15" />
       </div>
     </div>
   );

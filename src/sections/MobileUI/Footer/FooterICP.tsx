@@ -12,7 +12,7 @@ const FooterICP = () => {
       {/* Currency */}
       <a href="#" className="icp-option">
         <span className="icp-currency">$</span>
-        <span className="label">USD U.S. Dollar</span>
+        <span className="label">USD - U.S. Dollar</span>
       </a>
 
       {/* Country */}
