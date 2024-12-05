@@ -42,22 +42,29 @@
   position: relative;
   white-space: nowrap;
   z-index: 1;
+  justify-content: space-between;
+  align-items: center;
 
   div {
-    &::before {
-      content: "";
-      border-top: 1px solid #879596;
-      bottom: 0;
-      position: absolute;
-      right: 0;
-      top: 50%;
-      z-index: -1;
-    }
+    flex: 1;
+    background: #879596;
+    height: 1px;
+
+    // &::before {
+    //   content: "";
+    //   border-top: 1px solid #879596;
+    //   bottom: 0;
+    //   position: absolute;
+    //   right: 0;
+    //   top: 50%;
+    //   z-index: -1;
+    // }
   }
 
   span {
     overflow: hidden;
     padding: 0 5px;
     text-overflow: ellipsis;
+    line-height: 1.35;
   }
 }

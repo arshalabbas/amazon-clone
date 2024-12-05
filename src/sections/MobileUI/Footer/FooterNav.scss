@@ -1,0 +1,37 @@
+.native-footer-nav {
+  padding: 0 20px 25px;
+  background-color: #232f3e;
+  overflow: hidden;
+}
+
+.native-footer-label {
+  width: 50%;
+  display: block;
+  margin-bottom: 0;
+  margin-top: 25px;
+  list-style: none;
+  word-wrap: break-word;
+
+  a {
+    padding: 0;
+    display: block;
+    color: #111;
+    font-size: 15px;
+    line-height: 16px;
+
+    span {
+      white-space: normal;
+      color: #ffffff;
+      display: inline-block;
+      max-width: 100%;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &.right {
+    float: right;
+    clear: right;
+    padding-left: 4px;
+    padding-right: 0;
+  }
+}

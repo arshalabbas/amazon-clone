@@ -33,6 +33,7 @@ import {
   detailedCardsSet4,
   detailedCardsSet5,
 } from "../constants/detailedCardsMobile";
+import Footer from "./MobileUI/Footer/Footer";
 
 const Mobile = () => {
   return (
@@ -143,6 +144,8 @@ const Mobile = () => {
       </div>
 
       <GridLayoutMobile {...exploreDepartments} />
+
+      <Footer />
     </section>
   );
 };

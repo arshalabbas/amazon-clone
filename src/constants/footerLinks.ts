@@ -161,3 +161,23 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
   ],
 ];
+
+export const footerNavMobile = [
+  [
+    "Your Orders",
+    "Gift Cards",
+    "Find a Gift",
+    "Browsing History",
+    "Your Returns",
+    // "Disability Customer Support",
+  ],
+  [
+    "Amazon.com",
+    "Your Lists",
+    "Registry & Gift List",
+    "Your Account",
+    "Sell products on Amazon",
+    "Recalls and Product Safety Alerts",
+    "Customer Service",
+  ],
+];
