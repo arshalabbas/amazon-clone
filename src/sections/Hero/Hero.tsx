@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <GridLayout body={heroProducts} />
+      <GridLayout body={heroProducts} singleRow={false} />
     </div>
   );
 };

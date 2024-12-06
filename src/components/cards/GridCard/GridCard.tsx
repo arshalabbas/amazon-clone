@@ -1,3 +1,4 @@
+import { HTMLAttributes } from "react";
 import { CardElement } from "../../../types";
 import "./GridCard.scss";
 
@@ -12,11 +13,16 @@ const GridCardItem = ({ image, label }: { image: string; label: string }) => (
   </div>
 );
 
-const GridCard = ({ heading, body, footer }: CardElement) => {
+const GridCard = ({
+  heading,
+  body,
+  footer,
+  ...props
+}: CardElement & HTMLAttributes<HTMLDivElement>) => {
   if (!Array.isArray(body)) return;
 
   return (
-    <div className="card-container">
+    <div className="card-container" {...props}>
       <div className="inner-container">
         <div className="card-header">
           <h2>{heading}</h2>

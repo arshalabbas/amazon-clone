@@ -61,6 +61,10 @@
   font-family: "AmazonEmber", sans-serif;
 }
 
+// html {
+//   padding-bottom: 2px;
+// }
+
 body {
   color: var(--text-dark);
   background: #e3e6e6;
@@ -90,6 +94,12 @@ body {
   padding: 0 10px;
   min-width: 290px;
   // order: 2;
+
+  &[data-last-item="true"] {
+    @media (max-width: 1238px) {
+      display: none;
+    }
+  }
 
   .inner-container {
     background-color: #ffffff;

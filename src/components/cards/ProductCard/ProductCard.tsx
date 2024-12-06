@@ -1,10 +1,16 @@
+import { HTMLAttributes } from "react";
 import { CardElement } from "../../../types";
 import "./ProductCard.scss";
 
-const ProductCard = ({ heading, footer, body }: CardElement) => {
+const ProductCard = ({
+  heading,
+  footer,
+  body,
+  ...props
+}: CardElement & HTMLAttributes<HTMLDivElement>) => {
   if (Array.isArray(body)) return;
   return (
-    <div className="card-container">
+    <div className="card-container" {...props}>
       <div className="inner-container">
         <div className="card-header">
           <h2>{heading}</h2>
