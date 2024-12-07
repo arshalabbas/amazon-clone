@@ -1,7 +1,11 @@
 .icp-container {
-  padding-top: 25px;
+  padding-top: 28px;
   text-align: center;
   padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3px;
+  justify-content: center;
 
   .label {
     color: #ccc;
@@ -9,7 +13,8 @@
 }
 
 .icp-option {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   background: 0 0;
   font-size: 14px;
@@ -23,7 +28,7 @@
   background-size: 194px 295px;
   width: 15px;
   height: 15px;
-  top: 0.2em;
+  top: -0.1em;
   left: -0.6em;
   position: relative;
   display: inline-block;
@@ -37,7 +42,7 @@
 .icp-flag {
   background-position: -54px -108px;
   margin: 0 0.5em;
-  top: 1px;
+  top: -0.5px;
   background-image: var(--flags-sprite);
   background-size: 194px 295px;
   width: 18px;

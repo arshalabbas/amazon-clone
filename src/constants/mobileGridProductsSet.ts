@@ -262,6 +262,32 @@ export const mobileGridProductsSet1 = [
     footer: "Shop Luxury",
   },
   {
+    title: "Apparel under $25",
+    body: [
+      {
+        image:
+          "https://m.media-amazon.com/images/I/31Of9cXB89L._SR420,420_.jpg",
+        label: "Women",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/61t4RMEeDlL._SR420,420_.jpg",
+        label: "Men",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/61GQiWq-84L._SR420,420_.jpg",
+        label: "Girls",
+      },
+      {
+        image:
+          "https://m.media-amazon.com/images/I/61VkgU12HoL._SR420,420_.jpg",
+        label: "Boys",
+      },
+    ],
+    footer: "Shop all",
+  },
+  {
     title: "Premium home",
     body: [
       {
