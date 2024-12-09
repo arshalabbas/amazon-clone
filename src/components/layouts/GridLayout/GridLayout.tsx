@@ -4,12 +4,16 @@ import ProductCard from "../../cards/ProductCard/ProductCard";
 import { CardElement } from "../../../types";
 
 import "./GridLayout.scss";
+import { ROW_ITEM_COUNT } from "../../../constants";
 
 const GridLayout = ({
   body,
   singleRow = true,
 }: { body: CardElement[] } & { singleRow?: boolean }) => {
-  const newBody = body.slice(0, singleRow ? 4 : 8);
+  const newBody = body.slice(
+    0,
+    singleRow ? ROW_ITEM_COUNT.single_row : ROW_ITEM_COUNT.double_row
+  );
   return (
     <div className="grid-layout">
       {newBody.map((item, index) => (
