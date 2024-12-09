@@ -6,6 +6,7 @@
   color: #ddd;
   text-align: center;
   line-height: 18px;
+  padding-bottom: 32.5px;
   // white-space: nowrap;
 
   table {
@@ -25,7 +26,7 @@
       a {
         color: #ddd;
         text-decoration: none;
-        white-space: nowrap;
+        white-space: normal;
 
         &:hover {
           text-decoration: underline;
@@ -35,10 +36,10 @@
           }
         }
 
-        span {
+        div {
           color: #999;
-          white-space: nowrap;
-          display: inline-block;
+          white-space: normal;
+          // display: inline-block;
           font-size: 12px;
           line-height: 110%;
         }

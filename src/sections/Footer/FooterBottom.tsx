@@ -21,14 +21,14 @@ const FooterBottom = () => {
                           </Fragment>
                         ))}
                         <br />
-                        <span>
+                        <div>
                           {link.subtle.split("\n").map((text, k) => (
                             <Fragment key={text}>
                               {text}
                               {k < link.subtle.split("\n").length - 1 && <br />}
                             </Fragment>
                           ))}
-                        </span>
+                        </div>
                       </a>
                     </td>
 
