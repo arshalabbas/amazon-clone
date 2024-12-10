@@ -1,3 +1,7 @@
+:root {
+  --banner-index: 0;
+}
+
 .banners-container {
   width: 100%;
   max-width: 1500px;
@@ -9,9 +13,15 @@
     height: 300px;
     position: relative;
 
-    div {
+    .carousel-control-container {
       overflow: visible;
       position: relative;
+
+      .carousel-view-port {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
 
       &::before {
         content: "";
@@ -27,44 +37,68 @@
   }
 }
 
-.arrow-container {
-  visibility: visible;
-  z-index: 10;
-  max-height: 250px;
-  width: 84px;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding-left: 5px;
-  zoom: 1;
+.carousel-container {
+  width: 10500px;
+  // height: 600px;
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  white-space: nowrap;
+  transform: translateX(calc(((10500px / 7) * var(--banner-index))));
+  transition: transform 0.3s ease-in-out;
 
-  a {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    outline: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  i {
-    position: absolute;
-    top: 50%;
-    height: 50%;
-    transform: translate(-50%, -50%);
-    background-position: 0 0;
-    width: 34px;
-    height: 52px;
-    outline: 0;
-    background-image: url("/arrows.png");
-    background-repeat: no-repeat;
+  li {
+    width: calc(10500px / 7);
+    img {
+      width: 100%;
+    }
   }
 }
 
-.banner-img {
-  width: 100%;
+.arrow-container {
+  visibility: visible;
+  z-index: 10;
+  height: 250px;
+  width: 84px;
+  position: absolute !important;
+  top: 0;
+  overflow: visible;
+  zoom: 1;
+  cursor: pointer;
+
+  a {
+    visibility: visible;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-size: 68px 52px;
+      width: 34px;
+      height: 52px;
+      background-image: url("/arrows.png");
+      vertical-align: top;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &.left {
+    left: 0;
+    padding-left: 5px;
+
+    i {
+      background-position: 0 0;
+    }
+  }
+
+  &.right {
+    text-align: right;
+    right: 0;
+    padding-right: 5px;
+
+    i {
+      background-position: -34px 0;
+    }
+  }
 }
