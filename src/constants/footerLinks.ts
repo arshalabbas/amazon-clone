@@ -153,7 +153,7 @@ export const footerBottomLinks: { title: string; subtle: string }[][] = [
     },
     {
       title: "Amazon Subscription\nBoxes",
-      subtle: "Top subscription boxes -\nright to your door",
+      subtle: "Top subscription boxes –\nright to your door",
     },
     {
       title: "PillPack",
