@@ -60,9 +60,27 @@
   width: 100%;
   // margin: 0 0 5px;
   position: relative;
-  overflow: hidden;
+  overflow-x: auto;
   min-height: 220px;
   white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    background: transparent;
+    height: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 6px;
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background: #aaa;
+  }
 
   ul {
     left: 0;
